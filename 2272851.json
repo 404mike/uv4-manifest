@@ -1,0 +1,131 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "type": "Manifest",
+  "id": "http://www.peoplescollection.wales/uv/manifest/2272851",
+  "label": {
+    "en": ["Rees Thomas & Son Contractors Loughor"],
+    "cy": ["Rees Builders 1920s PC Back - 014 v1.jpg"]
+  },
+  "items": [
+    {
+      "id": "http://www.peoplescollection.wales/uv/manifest/2272851/canvas/0",
+      "type": "Canvas",
+      "label": {
+        "en": ["Image 1"],
+        "cy": ["Delwedd 1"]
+      },
+      "height": 1300,
+      "width": 2108,
+      "thumbnail": [
+        {
+          "id": "https://www.peoplescollection.wales/sites/default/files/styles/thumbnail/public/images/2025/July/Rees%20Builders%201920s%20PC%20Front%2024%20-%20015%20%20v1%20400.jpg?itok=sSdxm6jT",
+          "type": "Image",
+          "width": 250,
+          "height": 250,
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "http://www.peoplescollection.wales/uv/manifest/2272851/page/0",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://www.peoplescollection.wales/uv/manifest/2272851/annotation/0",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://www.peoplescollection.wales/sites/default/files/images/2025/July/Rees%20Builders%201920s%20PC%20Front%2024%20-%20015%20%20v1%20400.jpg",
+                "type": "Image",
+                "width": 2108,
+                "height": 1300,
+                "format": "image/jpeg"
+              },
+              "target": "http://www.peoplescollection.wales/uv/manifest/2272851/canvas/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://www.peoplescollection.wales/uv/manifest/2272851/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": ["Image 2"],
+        "cy": ["Delwedd 2"]
+      },
+      "height": 1300,
+      "width": 2108,
+      "thumbnail": [
+        {
+          "id": "https://www.peoplescollection.wales/sites/default/files/styles/thumbnail/public/images/2025/July/Rees%20Builders%201920s%20PC%20Front%2024%20-%20015%20%20v1%20BnW%20400.jpg?itok=dUayA3Rw",
+          "type": "Image",
+          "width": 250,
+          "height": 250,
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "http://www.peoplescollection.wales/uv/manifest/2272851/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://www.peoplescollection.wales/uv/manifest/2272851/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://www.peoplescollection.wales/sites/default/files/images/2025/July/Rees%20Builders%201920s%20PC%20Front%2024%20-%20015%20%20v1%20BnW%20400.jpg",
+                "type": "Image",
+                "width": 2108,
+                "height": 1300,
+                "format": "image/jpeg"
+              },
+              "target": "http://www.peoplescollection.wales/uv/manifest/2272851/canvas/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://www.peoplescollection.wales/uv/manifest/2272851/canvas/2",
+      "type": "Canvas",
+      "label": {
+        "en": ["Image 3"],
+        "cy": ["Delwedd 3"]
+      },
+      "height": 979,
+      "width": 1590,
+      "thumbnail": [
+        {
+          "id": "https://www.peoplescollection.wales/sites/default/files/styles/thumbnail/public/images/2025/July/Rees%20Builders%201920s%20PC%20Back%20-%20014%20v1.jpg?itok=Nlrc87RZ",
+          "type": "Image",
+          "width": 250,
+          "height": 250,
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "http://www.peoplescollection.wales/uv/manifest/2272851/page/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://www.peoplescollection.wales/uv/manifest/2272851/annotation/2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://www.peoplescollection.wales/sites/default/files/images/2025/July/Rees%20Builders%201920s%20PC%20Back%20-%20014%20v1.jpg",
+                "type": "Image",
+                "width": 1590,
+                "height": 979,
+                "format": "image/jpeg"
+              },
+              "target": "http://www.peoplescollection.wales/uv/manifest/2272851/canvas/2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
