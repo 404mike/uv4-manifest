@@ -11,7 +11,7 @@
     {
       "id": "https://example.org/stories/story-2/annotation/chapter_1",
       "type": "Annotation",
-      "motivation": "supplementing",
+      "motivation": ["supplementing"],
       "label": {
         "en": [
           "Chapter 1"
@@ -48,7 +48,7 @@
     {
       "id": "https://example.org/stories/story-2/annotation/chapter_2",
       "type": "Annotation",
-      "motivation": "supplementing",
+      "motivation": ["supplementing"],
       "label": {
         "en": [
           "Chapter 2"
@@ -85,7 +85,7 @@
     {
       "id": "https://example.org/stories/story-2/annotation/chapter_3",
       "type": "Annotation",
-      "motivation": "supplementing",
+      "motivation": ["supplementing"],
       "label": {
         "en": [
           "Chapter 3"
@@ -122,7 +122,7 @@
     {
       "id": "https://example.org/stories/story-2/annotation/chapter_4",
       "type": "Annotation",
-      "motivation": "supplementing",
+      "motivation": ["supplementing"],
       "label": {
         "en": [
           "Chapter 4"
@@ -153,7 +153,7 @@
     {
       "id": "https://example.org/stories/story-2/annotation/chapter_5",
       "type": "Annotation",
-      "motivation": "supplementing",
+      "motivation": ["supplementing"],
       "label": {
         "en": [
           "Chapter 5"
@@ -190,7 +190,7 @@
     {
       "id": "https://example.org/stories/story-2/annotation/chapter_6",
       "type": "Annotation",
-      "motivation": "supplementing",
+      "motivation": ["supplementing"],
       "label": {
         "en": [
           "Chapter 6"
