@@ -1,0 +1,374 @@
+{
+ "@context": [
+  "http://iiif.io/api/presentation/3/context.json",
+  {
+   "mango": "https://mango-iiif.github.io/ns/story#",
+   "mangoState": {
+    "@id": "mango:state",
+    "@type": "@json"
+   }
+  }
+ ],
+ "id": "http://localhost:8765/test/abtest.json",
+ "type": "AnnotationPage",
+ "mango:storyVersion": "1.0",
+ "label": {
+  "en": [
+   "AB test"
+  ]
+ },
+ "items": [
+  {
+   "id": "http://localhost:8765/test/abtest.json/annotation/chapter_1",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "label": {
+    "en": [
+     "ch1 zoom-in"
+    ]
+   },
+   "summary": {
+    "en": [
+     "zoom-in test"
+    ]
+   },
+   "body": [
+    {
+     "id": "http://localhost:8765/media/paris-street-rainy-day.mp3#t=0,8",
+     "type": "Sound",
+     "format": "audio/mp3",
+     "language": "en"
+    },
+    {
+     "type": "mango:ViewerState",
+     "format": "application/vnd.mango.story-state+json",
+     "mango:storyVersion": "1.0",
+     "mangoState": {
+      "chapterId": "chapter_1",
+      "canvasIndex": 0,
+      "canvasId": "http://localhost:8765/test/paris-street-rainy-day-canvas",
+      "viewBox": {
+       "x": 4000,
+       "y": 3000,
+       "w": 1200,
+       "h": 932
+      },
+      "playback": {
+       "transitionMs": 1
+      },
+      "cameraTrack": {
+       "durationMs": 7800,
+       "preset": "zoom-in",
+       "pathType": "linear",
+       "easing": "linear",
+       "keyframes": [
+        {
+         "id": "a",
+         "timeMs": 0,
+         "viewBox": {
+          "x": 0,
+          "y": 0,
+          "w": 9987,
+          "h": 7755
+         }
+        },
+        {
+         "id": "b",
+         "timeMs": 7800,
+         "viewBox": {
+          "x": 4000,
+          "y": 3000,
+          "w": 1200,
+          "h": 932
+         }
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "target": {
+    "source": "http://localhost:8765/test/paris-street-rainy-day-canvas",
+    "type": "SpecificResource",
+    "partOf": {
+     "id": "http://localhost:8765/test/paris-street-rainy-day-manifest.json",
+     "type": "Manifest"
+    },
+    "selector": {
+     "type": "FragmentSelector",
+     "conformsTo": "http://www.w3.org/TR/media-frags/",
+     "value": "xywh=4000,3000,1200,932"
+    }
+   }
+  },
+  {
+   "id": "http://localhost:8765/test/abtest.json/annotation/chapter_2",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "label": {
+    "en": [
+     "ch2 custom"
+    ]
+   },
+   "summary": {
+    "en": [
+     "custom test"
+    ]
+   },
+   "body": [
+    {
+     "id": "http://localhost:8765/media/paris-street-rainy-day.mp3#t=8,16",
+     "type": "Sound",
+     "format": "audio/mp3",
+     "language": "en"
+    },
+    {
+     "type": "mango:ViewerState",
+     "format": "application/vnd.mango.story-state+json",
+     "mango:storyVersion": "1.0",
+     "mangoState": {
+      "chapterId": "chapter_2",
+      "canvasIndex": 0,
+      "canvasId": "http://localhost:8765/test/paris-street-rainy-day-canvas",
+      "viewBox": {
+       "x": 500,
+       "y": 500,
+       "w": 3000,
+       "h": 2330
+      },
+      "playback": {
+       "transitionMs": 1
+      },
+      "cameraTrack": {
+       "durationMs": 7800,
+       "preset": "custom",
+       "pathType": "linear",
+       "easing": "linear",
+       "keyframes": [
+        {
+         "id": "a",
+         "timeMs": 0,
+         "viewBox": {
+          "x": 4000,
+          "y": 3000,
+          "w": 1200,
+          "h": 932
+         }
+        },
+        {
+         "id": "b",
+         "timeMs": 7800,
+         "viewBox": {
+          "x": 500,
+          "y": 500,
+          "w": 3000,
+          "h": 2330
+         }
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "target": {
+    "source": "http://localhost:8765/test/paris-street-rainy-day-canvas",
+    "type": "SpecificResource",
+    "partOf": {
+     "id": "http://localhost:8765/test/paris-street-rainy-day-manifest.json",
+     "type": "Manifest"
+    },
+    "selector": {
+     "type": "FragmentSelector",
+     "conformsTo": "http://www.w3.org/TR/media-frags/",
+     "value": "xywh=500,500,3000,2330"
+    }
+   }
+  },
+  {
+   "id": "http://localhost:8765/test/abtest.json/annotation/chapter_3",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "label": {
+    "en": [
+     "ch3 pan"
+    ]
+   },
+   "summary": {
+    "en": [
+     "pan test"
+    ]
+   },
+   "body": [
+    {
+     "id": "http://localhost:8765/media/paris-street-rainy-day.mp3#t=16,24",
+     "type": "Sound",
+     "format": "audio/mp3",
+     "language": "en"
+    },
+    {
+     "type": "mango:ViewerState",
+     "format": "application/vnd.mango.story-state+json",
+     "mango:storyVersion": "1.0",
+     "mangoState": {
+      "chapterId": "chapter_3",
+      "canvasIndex": 0,
+      "canvasId": "http://localhost:8765/test/paris-street-rainy-day-canvas",
+      "viewBox": {
+       "x": 2000,
+       "y": 4500,
+       "w": 3000,
+       "h": 2330
+      },
+      "playback": {
+       "transitionMs": 1
+      },
+      "cameraTrack": {
+       "durationMs": 7800,
+       "preset": "pan",
+       "pathType": "spline",
+       "easing": "linear",
+       "keyframes": [
+        {
+         "id": "a",
+         "timeMs": 0,
+         "viewBox": {
+          "x": 500,
+          "y": 500,
+          "w": 3000,
+          "h": 2330
+         }
+        },
+        {
+         "id": "b",
+         "timeMs": 3900,
+         "viewBox": {
+          "x": 6000,
+          "y": 4000,
+          "w": 3000,
+          "h": 2330
+         }
+        },
+        {
+         "id": "c",
+         "timeMs": 7800,
+         "viewBox": {
+          "x": 2000,
+          "y": 4500,
+          "w": 3000,
+          "h": 2330
+         }
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "target": {
+    "source": "http://localhost:8765/test/paris-street-rainy-day-canvas",
+    "type": "SpecificResource",
+    "partOf": {
+     "id": "http://localhost:8765/test/paris-street-rainy-day-manifest.json",
+     "type": "Manifest"
+    },
+    "selector": {
+     "type": "FragmentSelector",
+     "conformsTo": "http://www.w3.org/TR/media-frags/",
+     "value": "xywh=2000,4500,3000,2330"
+    }
+   }
+  },
+  {
+   "id": "http://localhost:8765/test/abtest.json/annotation/chapter_4",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "label": {
+    "en": [
+     "ch4 custom"
+    ]
+   },
+   "summary": {
+    "en": [
+     "custom test"
+    ]
+   },
+   "body": [
+    {
+     "id": "http://localhost:8765/media/paris-street-rainy-day.mp3#t=24,32",
+     "type": "Sound",
+     "format": "audio/mp3",
+     "language": "en"
+    },
+    {
+     "type": "mango:ViewerState",
+     "format": "application/vnd.mango.story-state+json",
+     "mango:storyVersion": "1.0",
+     "mangoState": {
+      "chapterId": "chapter_4",
+      "canvasIndex": 0,
+      "canvasId": "http://localhost:8765/test/paris-street-rainy-day-canvas",
+      "viewBox": {
+       "x": 0,
+       "y": 0,
+       "w": 9987,
+       "h": 7755
+      },
+      "playback": {
+       "transitionMs": 1
+      },
+      "cameraTrack": {
+       "durationMs": 7800,
+       "preset": "custom",
+       "pathType": "spline",
+       "easing": "linear",
+       "keyframes": [
+        {
+         "id": "a",
+         "timeMs": 0,
+         "viewBox": {
+          "x": 2000,
+          "y": 4500,
+          "w": 3000,
+          "h": 2330
+         }
+        },
+        {
+         "id": "b",
+         "timeMs": 3900,
+         "viewBox": {
+          "x": 7000,
+          "y": 1000,
+          "w": 2000,
+          "h": 1553
+         }
+        },
+        {
+         "id": "c",
+         "timeMs": 7800,
+         "viewBox": {
+          "x": 0,
+          "y": 0,
+          "w": 9987,
+          "h": 7755
+         }
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "target": {
+    "source": "http://localhost:8765/test/paris-street-rainy-day-canvas",
+    "type": "SpecificResource",
+    "partOf": {
+     "id": "http://localhost:8765/test/paris-street-rainy-day-manifest.json",
+     "type": "Manifest"
+    },
+    "selector": {
+     "type": "FragmentSelector",
+     "conformsTo": "http://www.w3.org/TR/media-frags/",
+     "value": "xywh=0,0,9987,7755"
+    }
+   }
+  }
+ ]
+}

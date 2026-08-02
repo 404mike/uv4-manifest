@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Mango story harness</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #0b0d12; }
+  mango-viewer { display: block; width: 100vw; height: 100vh; }
+</style>
+<script type="module" src="/test/mango-viewer.js"></script>
+</head>
+<body>
+<script>
+  const params = new URLSearchParams(location.search);
+  const story = params.get('story') || 'http://localhost:8765/test/paris-street-rainy-day.json';
+  const v = document.createElement('mango-viewer');
+  v.setAttribute('mode', 'story-viewer');
+  v.setAttribute('story-url', story);
+  v.setAttribute('config', JSON.stringify({
+    showThumbnails: false, showSearch: false, showMetadata: false,
+    showAnnotations: false, showTools: false
+  }));
+  document.body.appendChild(v);
+
+  // capture every custom event the component emits, with timestamps
+  window.__log = [];
+  const seen = new Set();
+  const origDispatch = EventTarget.prototype.dispatchEvent;
+  EventTarget.prototype.dispatchEvent = function (ev) {
+    if (ev instanceof CustomEvent && this instanceof HTMLElement && this.tagName === 'MANGO-VIEWER') {
+      seen.add(ev.type);
+      window.__log.push({ t: performance.now(), type: ev.type, detail: safe(ev.detail) });
+      if (window.__log.length > 3000) window.__log.shift();
+    }
+    return origDispatch.call(this, ev);
+  };
+  function safe(d) {
+    try { return JSON.parse(JSON.stringify(d)); } catch { return String(d); }
+  }
+  window.__types = () => [...seen];
+</script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "http://localhost:8765/test/stoke-by-nayland-manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "stoke-by-nayland (local test)"
+    ]
+  },
+  "items": [
+    {
+      "id": "http://localhost:8765/test/stoke-by-nayland-canvas",
+      "type": "Canvas",
+      "width": 8690,
+      "height": 6397,
+      "items": [
+        {
+          "id": "http://localhost:8765/test/stoke-by-nayland-canvas/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:8765/test/stoke-by-nayland-canvas/page/anno",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:8765/media/stoke-by-nayland.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 8690,
+                "height": 6397
+              },
+              "target": "http://localhost:8765/test/stoke-by-nayland-canvas"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

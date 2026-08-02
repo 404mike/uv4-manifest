@@ -1,0 +1,39 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "http://localhost:8765/test/fountain-villa-torlonia-manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "fountain-villa-torlonia (local test)"
+    ]
+  },
+  "items": [
+    {
+      "id": "http://localhost:8765/test/fountain-villa-torlonia-canvas",
+      "type": "Canvas",
+      "width": 4414,
+      "height": 5659,
+      "items": [
+        {
+          "id": "http://localhost:8765/test/fountain-villa-torlonia-canvas/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:8765/test/fountain-villa-torlonia-canvas/page/anno",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:8765/media/fountain-villa-torlonia.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 4414,
+                "height": 5659
+              },
+              "target": "http://localhost:8765/test/fountain-villa-torlonia-canvas"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

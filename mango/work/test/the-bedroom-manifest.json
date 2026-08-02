@@ -1,0 +1,39 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "http://localhost:8765/test/the-bedroom-manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "the-bedroom (local test)"
+    ]
+  },
+  "items": [
+    {
+      "id": "http://localhost:8765/test/the-bedroom-canvas",
+      "type": "Canvas",
+      "width": 12614,
+      "height": 9875,
+      "items": [
+        {
+          "id": "http://localhost:8765/test/the-bedroom-canvas/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:8765/test/the-bedroom-canvas/page/anno",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:8765/media/the-bedroom.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 12614,
+                "height": 9875
+              },
+              "target": "http://localhost:8765/test/the-bedroom-canvas"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
