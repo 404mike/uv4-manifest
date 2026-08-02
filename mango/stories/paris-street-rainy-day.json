@@ -34,7 +34,7 @@
       },
       "body": [
         {
-          "id": "https://www.artic.edu/assets/8313475f-a89a-035d-8a5b-93ac1bfcc69d#t=0,14.13",
+          "id": "https://404mike.github.io/uv4-manifest/mango/work/media/paris-street-rainy-day.mp3#t=0,14.13",
           "type": "Sound",
           "format": "audio/mp3",
           "language": "en"
@@ -53,19 +53,8 @@
               "w": 9987,
               "h": 7755
             },
-            "playback": {
-              "transitionMs": 600,
-              "entryTransition": {
-                "type": "tween",
-                "durationMs": 600,
-                "easing": "ease-out"
-              }
-            },
             "cameraTrack": {
               "durationMs": 13930,
-              "preset": "custom",
-              "pathType": "linear",
-              "easing": "ease-out",
               "keyframes": [
                 {
                   "id": "a",
@@ -85,8 +74,8 @@
                   "id": "b",
                   "timeMs": 13930,
                   "focus": {
-                    "x": 5000.0,
-                    "y": 3889.0
+                    "x": 5000,
+                    "y": 3889
                   },
                   "viewBox": {
                     "x": 700,
@@ -95,7 +84,18 @@
                     "h": 6678
                   }
                 }
-              ]
+              ],
+              "preset": "custom",
+              "pathType": "linear",
+              "easing": "ease-out"
+            },
+            "playback": {
+              "entryTransition": {
+                "type": "tween",
+                "durationMs": 600,
+                "easing": "ease-out"
+              },
+              "transitionMs": 600
             }
           }
         }
@@ -130,7 +130,7 @@
       },
       "body": [
         {
-          "id": "https://www.artic.edu/assets/8313475f-a89a-035d-8a5b-93ac1bfcc69d#t=14.13,29.13",
+          "id": "https://404mike.github.io/uv4-manifest/mango/work/media/paris-street-rainy-day.mp3#t=14.13,29.13",
           "type": "Sound",
           "format": "audio/mp3",
           "language": "en"
@@ -145,57 +145,48 @@
             "canvasId": "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27",
             "viewBox": {
               "x": 0,
-              "y": 550,
-              "w": 9800,
-              "h": 6678
-            },
-            "playback": {
-              "transitionMs": 600,
-              "entryTransition": {
-                "type": "tween",
-                "durationMs": 600,
-                "easing": "ease-out"
-              }
+              "y": -1348.8575129533676,
+              "w": 9987,
+              "h": 10452.715025906735
             },
             "cameraTrack": {
               "durationMs": 14800,
-              "preset": "custom",
-              "pathType": "linear",
-              "easing": "ease-out",
               "keyframes": [
                 {
                   "id": "a",
                   "timeMs": 0,
                   "focus": {
-                    "x": 5000.0,
-                    "y": 3889.0
+                    "x": 537.5669637736556,
+                    "y": 3659.159682172345
                   },
                   "viewBox": {
-                    "x": 700,
-                    "y": 550,
-                    "w": 8600,
-                    "h": 6678
-                  }
+                    "x": -77.87840722833175,
+                    "y": 3209.7703977813494,
+                    "w": 1230.8907420039748,
+                    "h": 898.7785687819917
+                  },
+                  "layerOpacities": {}
                 },
                 {
                   "id": "b",
                   "timeMs": 7400,
                   "focus": {
-                    "x": 3600.0,
-                    "y": 3695.5
+                    "x": 3860.7598152424935,
+                    "y": 3452.790235277136
                   },
                   "viewBox": {
-                    "x": 0,
-                    "y": 900,
-                    "w": 7200,
-                    "h": 5591
-                  }
+                    "x": 3118.7748946447336,
+                    "y": 2911.0036069148596,
+                    "w": 1483.9698411955196,
+                    "h": 1083.5732567245532
+                  },
+                  "layerOpacities": {}
                 },
                 {
                   "id": "c",
                   "timeMs": 14800,
                   "focus": {
-                    "x": 6200.0,
+                    "x": 6200,
                     "y": 3695.5
                   },
                   "viewBox": {
@@ -205,7 +196,18 @@
                     "h": 5591
                   }
                 }
-              ]
+              ],
+              "preset": "custom",
+              "pathType": "linear",
+              "easing": "ease-out"
+            },
+            "playback": {
+              "entryTransition": {
+                "type": "tween",
+                "durationMs": 600,
+                "easing": "ease-out"
+              },
+              "transitionMs": 600
             }
           }
         }
@@ -220,7 +222,7 @@
         "selector": {
           "type": "FragmentSelector",
           "conformsTo": "http://www.w3.org/TR/media-frags/",
-          "value": "xywh=0,550,9800,6678"
+          "value": "xywh=0,0,9987,10453"
         }
       }
     },
@@ -240,7 +242,7 @@
       },
       "body": [
         {
-          "id": "https://www.artic.edu/assets/8313475f-a89a-035d-8a5b-93ac1bfcc69d#t=29.13,33.8",
+          "id": "https://404mike.github.io/uv4-manifest/mango/work/media/paris-street-rainy-day.mp3#t=29.13,33.8",
           "type": "Sound",
           "format": "audio/mp3",
           "language": "en"
@@ -254,68 +256,25 @@
             "canvasIndex": 0,
             "canvasId": "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27",
             "viewBox": {
-              "x": 1200,
-              "y": 900,
-              "w": 8600,
-              "h": 5591
+              "x": 0,
+              "y": -1348.8575129533676,
+              "w": 9987,
+              "h": 10452.715025906735
+            },
+            "cameraTrack": {
+              "durationMs": 8000,
+              "keyframes": [],
+              "preset": "custom",
+              "pathType": "linear",
+              "easing": "linear"
             },
             "playback": {
-              "transitionMs": 600,
               "entryTransition": {
                 "type": "tween",
                 "durationMs": 600,
                 "easing": "ease-out"
-              }
-            },
-            "cameraTrack": {
-              "durationMs": 4470,
-              "preset": "custom",
-              "pathType": "linear",
-              "easing": "ease-out",
-              "keyframes": [
-                {
-                  "id": "a",
-                  "timeMs": 0,
-                  "focus": {
-                    "x": 6200.0,
-                    "y": 3695.5
-                  },
-                  "viewBox": {
-                    "x": 2600,
-                    "y": 900,
-                    "w": 7200,
-                    "h": 5591
-                  }
-                },
-                {
-                  "id": "b",
-                  "timeMs": 2235,
-                  "focus": {
-                    "x": 2050.0,
-                    "y": 4210.0
-                  },
-                  "viewBox": {
-                    "x": 1200,
-                    "y": 3550,
-                    "w": 1700,
-                    "h": 1320
-                  }
-                },
-                {
-                  "id": "c",
-                  "timeMs": 4470,
-                  "focus": {
-                    "x": 3850.0,
-                    "y": 4260.0
-                  },
-                  "viewBox": {
-                    "x": 3000,
-                    "y": 3600,
-                    "w": 1700,
-                    "h": 1320
-                  }
-                }
-              ]
+              },
+              "transitionMs": 600
             }
           }
         }
@@ -330,7 +289,7 @@
         "selector": {
           "type": "FragmentSelector",
           "conformsTo": "http://www.w3.org/TR/media-frags/",
-          "value": "xywh=1200,900,8600,5591"
+          "value": "xywh=0,0,9987,10453"
         }
       }
     },
@@ -350,7 +309,7 @@
       },
       "body": [
         {
-          "id": "https://www.artic.edu/assets/8313475f-a89a-035d-8a5b-93ac1bfcc69d#t=33.8,39.4",
+          "id": "https://404mike.github.io/uv4-manifest/mango/work/media/paris-street-rainy-day.mp3#t=33.8,39.4",
           "type": "Sound",
           "format": "audio/mp3",
           "language": "en"
@@ -364,53 +323,55 @@
             "canvasIndex": 0,
             "canvasId": "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27",
             "viewBox": {
-              "x": 5300,
-              "y": 2700,
-              "w": 2600,
-              "h": 2019
-            },
-            "playback": {
-              "transitionMs": 1,
-              "entryTransition": {
-                "type": "cut",
-                "durationMs": 1
-              }
+              "x": 5678.071998701705,
+              "y": 2737.7563530418192,
+              "w": 2322.6570091020817,
+              "h": 1837.183617855335
             },
             "cameraTrack": {
               "durationMs": 5400,
-              "preset": "custom",
-              "pathType": "linear",
-              "easing": "ease-out",
               "keyframes": [
                 {
-                  "id": "a",
+                  "id": "d9e40b4d-543a-4c43-84ac-1f9653c12504",
                   "timeMs": 0,
                   "focus": {
-                    "x": 6600.0,
-                    "y": 3709.5
+                    "x": 6815.9212408045005,
+                    "y": 3804.7412951320507
                   },
                   "viewBox": {
-                    "x": 5300,
-                    "y": 2700,
-                    "w": 2600,
-                    "h": 2019
-                  }
+                    "x": 4980.736774651305,
+                    "y": 2719.1745275851463,
+                    "w": 3670.3689323063923,
+                    "h": 2171.1335350938084
+                  },
+                  "layerOpacities": {}
                 },
                 {
-                  "id": "b",
+                  "id": "6d4a2776-ce04-43b3-ba68-8160683324a5",
                   "timeMs": 5400,
                   "focus": {
-                    "x": 6700.0,
-                    "y": 3837.5
+                    "x": 6839.400503252747,
+                    "y": 3656.3481619694867
                   },
                   "viewBox": {
-                    "x": 5750,
-                    "y": 3100,
-                    "w": 1900,
-                    "h": 1475
-                  }
+                    "x": 5564.966846201915,
+                    "y": 2902.482351173025,
+                    "w": 2548.867314101662,
+                    "h": 1507.7316215929231
+                  },
+                  "layerOpacities": {}
                 }
-              ]
+              ],
+              "preset": "custom",
+              "pathType": "linear",
+              "easing": "ease-out"
+            },
+            "playback": {
+              "entryTransition": {
+                "type": "cut",
+                "durationMs": 1
+              },
+              "transitionMs": 1
             }
           }
         }
@@ -425,7 +386,7 @@
         "selector": {
           "type": "FragmentSelector",
           "conformsTo": "http://www.w3.org/TR/media-frags/",
-          "value": "xywh=5300,2700,2600,2019"
+          "value": "xywh=5678,2738,2323,1837"
         }
       }
     },
@@ -445,7 +406,7 @@
       },
       "body": [
         {
-          "id": "https://www.artic.edu/assets/8313475f-a89a-035d-8a5b-93ac1bfcc69d#t=39.4,60.47",
+          "id": "https://404mike.github.io/uv4-manifest/mango/work/media/paris-street-rainy-day.mp3#t=39.4,60.47",
           "type": "Sound",
           "format": "audio/mp3",
           "language": "en"
@@ -459,30 +420,19 @@
             "canvasIndex": 0,
             "canvasId": "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27",
             "viewBox": {
-              "x": 5750,
-              "y": 3100,
-              "w": 4200,
-              "h": 2015
-            },
-            "playback": {
-              "transitionMs": 600,
-              "entryTransition": {
-                "type": "tween",
-                "durationMs": 600,
-                "easing": "ease-out"
-              }
+              "x": 5678,
+              "y": 2738,
+              "w": 2323,
+              "h": 1837
             },
             "cameraTrack": {
               "durationMs": 20870,
-              "preset": "custom",
-              "pathType": "linear",
-              "easing": "ease-out",
               "keyframes": [
                 {
                   "id": "a",
                   "timeMs": 0,
                   "focus": {
-                    "x": 6700.0,
+                    "x": 6700,
                     "y": 3837.5
                   },
                   "viewBox": {
@@ -496,8 +446,8 @@
                   "id": "b",
                   "timeMs": 10435,
                   "focus": {
-                    "x": 8800.0,
-                    "y": 4054.0
+                    "x": 8800,
+                    "y": 4054
                   },
                   "viewBox": {
                     "x": 7700,
@@ -510,7 +460,7 @@
                   "id": "c",
                   "timeMs": 20870,
                   "focus": {
-                    "x": 9200.0,
+                    "x": 9200,
                     "y": 4532.5
                   },
                   "viewBox": {
@@ -520,7 +470,18 @@
                     "h": 1165
                   }
                 }
-              ]
+              ],
+              "preset": "custom",
+              "pathType": "linear",
+              "easing": "ease-out"
+            },
+            "playback": {
+              "entryTransition": {
+                "type": "tween",
+                "durationMs": 600,
+                "easing": "ease-out"
+              },
+              "transitionMs": 600
             }
           }
         }
@@ -535,7 +496,7 @@
         "selector": {
           "type": "FragmentSelector",
           "conformsTo": "http://www.w3.org/TR/media-frags/",
-          "value": "xywh=5750,3100,4200,2015"
+          "value": "xywh=5678,2738,2323,1837"
         }
       }
     },
@@ -555,7 +516,7 @@
       },
       "body": [
         {
-          "id": "https://www.artic.edu/assets/8313475f-a89a-035d-8a5b-93ac1bfcc69d#t=60.47,85.93",
+          "id": "https://404mike.github.io/uv4-manifest/mango/work/media/paris-street-rainy-day.mp3#t=60.47,85.93",
           "type": "Sound",
           "format": "audio/mp3",
           "language": "en"
@@ -574,25 +535,14 @@
               "w": 9350,
               "h": 2165
             },
-            "playback": {
-              "transitionMs": 600,
-              "entryTransition": {
-                "type": "tween",
-                "durationMs": 600,
-                "easing": "ease-out"
-              }
-            },
             "cameraTrack": {
               "durationMs": 25260,
-              "preset": "custom",
-              "pathType": "linear",
-              "easing": "ease-out",
               "keyframes": [
                 {
                   "id": "a",
                   "timeMs": 0,
                   "focus": {
-                    "x": 9200.0,
+                    "x": 9200,
                     "y": 4532.5
                   },
                   "viewBox": {
@@ -606,7 +556,7 @@
                   "id": "b",
                   "timeMs": 8420,
                   "focus": {
-                    "x": 6550.0,
+                    "x": 6550,
                     "y": 3454.5
                   },
                   "viewBox": {
@@ -620,8 +570,8 @@
                   "id": "c",
                   "timeMs": 16840,
                   "focus": {
-                    "x": 3950.0,
-                    "y": 3716.0
+                    "x": 3950,
+                    "y": 3716
                   },
                   "viewBox": {
                     "x": 3350,
@@ -634,7 +584,7 @@
                   "id": "d",
                   "timeMs": 25260,
                   "focus": {
-                    "x": 1300.0,
+                    "x": 1300,
                     "y": 3643.5
                   },
                   "viewBox": {
@@ -644,7 +594,18 @@
                     "h": 1087
                   }
                 }
-              ]
+              ],
+              "preset": "custom",
+              "pathType": "linear",
+              "easing": "ease-out"
+            },
+            "playback": {
+              "entryTransition": {
+                "type": "tween",
+                "durationMs": 600,
+                "easing": "ease-out"
+              },
+              "transitionMs": 600
             }
           }
         }
@@ -679,7 +640,7 @@
       },
       "body": [
         {
-          "id": "https://www.artic.edu/assets/8313475f-a89a-035d-8a5b-93ac1bfcc69d#t=85.93,92.5",
+          "id": "https://404mike.github.io/uv4-manifest/mango/work/media/paris-street-rainy-day.mp3#t=85.93,92.5",
           "type": "Sound",
           "format": "audio/mp3",
           "language": "en"
@@ -698,25 +659,14 @@
               "w": 7700,
               "h": 1864
             },
-            "playback": {
-              "transitionMs": 600,
-              "entryTransition": {
-                "type": "tween",
-                "durationMs": 600,
-                "easing": "ease-out"
-              }
-            },
             "cameraTrack": {
               "durationMs": 6370,
-              "preset": "custom",
-              "pathType": "linear",
-              "easing": "ease-out",
               "keyframes": [
                 {
                   "id": "a",
                   "timeMs": 0,
                   "focus": {
-                    "x": 1300.0,
+                    "x": 1300,
                     "y": 3643.5
                   },
                   "viewBox": {
@@ -730,8 +680,8 @@
                   "id": "b",
                   "timeMs": 6370,
                   "focus": {
-                    "x": 7100.0,
-                    "y": 3832.0
+                    "x": 7100,
+                    "y": 3832
                   },
                   "viewBox": {
                     "x": 5900,
@@ -740,7 +690,18 @@
                     "h": 1864
                   }
                 }
-              ]
+              ],
+              "preset": "custom",
+              "pathType": "linear",
+              "easing": "ease-out"
+            },
+            "playback": {
+              "entryTransition": {
+                "type": "tween",
+                "durationMs": 600,
+                "easing": "ease-out"
+              },
+              "transitionMs": 600
             }
           }
         }
@@ -775,7 +736,7 @@
       },
       "body": [
         {
-          "id": "https://www.artic.edu/assets/8313475f-a89a-035d-8a5b-93ac1bfcc69d#t=92.5,94.75",
+          "id": "https://404mike.github.io/uv4-manifest/mango/work/media/paris-street-rainy-day.mp3#t=92.5,94.75",
           "type": "Sound",
           "format": "audio/mp3",
           "language": "en"
@@ -794,26 +755,15 @@
               "w": 2450,
               "h": 1987
             },
-            "playback": {
-              "transitionMs": 600,
-              "entryTransition": {
-                "type": "tween",
-                "durationMs": 600,
-                "easing": "ease-out"
-              }
-            },
             "cameraTrack": {
               "durationMs": 2050,
-              "preset": "custom",
-              "pathType": "linear",
-              "easing": "ease-out",
               "keyframes": [
                 {
                   "id": "a",
                   "timeMs": 0,
                   "focus": {
-                    "x": 7100.0,
-                    "y": 3832.0
+                    "x": 7100,
+                    "y": 3832
                   },
                   "viewBox": {
                     "x": 5900,
@@ -826,7 +776,7 @@
                   "id": "b",
                   "timeMs": 2050,
                   "focus": {
-                    "x": 7650.0,
+                    "x": 7650,
                     "y": 4343.5
                   },
                   "viewBox": {
@@ -836,7 +786,18 @@
                     "h": 1087
                   }
                 }
-              ]
+              ],
+              "preset": "custom",
+              "pathType": "linear",
+              "easing": "ease-out"
+            },
+            "playback": {
+              "entryTransition": {
+                "type": "tween",
+                "durationMs": 600,
+                "easing": "ease-out"
+              },
+              "transitionMs": 600
             }
           }
         }
@@ -871,7 +832,7 @@
       },
       "body": [
         {
-          "id": "https://www.artic.edu/assets/8313475f-a89a-035d-8a5b-93ac1bfcc69d#t=94.75,97.75",
+          "id": "https://404mike.github.io/uv4-manifest/mango/work/media/paris-street-rainy-day.mp3#t=94.75,97.75",
           "type": "Sound",
           "format": "audio/mp3",
           "language": "en"
@@ -890,25 +851,14 @@
               "w": 2350,
               "h": 2737
             },
-            "playback": {
-              "transitionMs": 600,
-              "entryTransition": {
-                "type": "tween",
-                "durationMs": 600,
-                "easing": "ease-out"
-              }
-            },
             "cameraTrack": {
               "durationMs": 2800,
-              "preset": "custom",
-              "pathType": "linear",
-              "easing": "ease-out",
               "keyframes": [
                 {
                   "id": "a",
                   "timeMs": 0,
                   "focus": {
-                    "x": 7650.0,
+                    "x": 7650,
                     "y": 4343.5
                   },
                   "viewBox": {
@@ -922,8 +872,8 @@
                   "id": "b",
                   "timeMs": 2800,
                   "focus": {
-                    "x": 6900.0,
-                    "y": 2849.0
+                    "x": 6900,
+                    "y": 2849
                   },
                   "viewBox": {
                     "x": 6000,
@@ -932,7 +882,18 @@
                     "h": 1398
                   }
                 }
-              ]
+              ],
+              "preset": "custom",
+              "pathType": "linear",
+              "easing": "ease-out"
+            },
+            "playback": {
+              "entryTransition": {
+                "type": "tween",
+                "durationMs": 600,
+                "easing": "ease-out"
+              },
+              "transitionMs": 600
             }
           }
         }
@@ -967,7 +928,7 @@
       },
       "body": [
         {
-          "id": "https://www.artic.edu/assets/8313475f-a89a-035d-8a5b-93ac1bfcc69d#t=97.75,108.95",
+          "id": "https://404mike.github.io/uv4-manifest/mango/work/media/paris-street-rainy-day.mp3#t=97.75,108.95",
           "type": "Sound",
           "format": "audio/mp3",
           "language": "en"
@@ -986,26 +947,15 @@
               "w": 7100,
               "h": 3572
             },
-            "playback": {
-              "transitionMs": 600,
-              "entryTransition": {
-                "type": "tween",
-                "durationMs": 600,
-                "easing": "ease-out"
-              }
-            },
             "cameraTrack": {
               "durationMs": 11000,
-              "preset": "custom",
-              "pathType": "linear",
-              "easing": "ease-out",
               "keyframes": [
                 {
                   "id": "a",
                   "timeMs": 0,
                   "focus": {
-                    "x": 6900.0,
-                    "y": 2849.0
+                    "x": 6900,
+                    "y": 2849
                   },
                   "viewBox": {
                     "x": 6000,
@@ -1018,7 +968,7 @@
                   "id": "b",
                   "timeMs": 5500,
                   "focus": {
-                    "x": 3000.0,
+                    "x": 3000,
                     "y": 2130.5
                   },
                   "viewBox": {
@@ -1032,8 +982,8 @@
                   "id": "c",
                   "timeMs": 11000,
                   "focus": {
-                    "x": 3000.0,
-                    "y": 2086.0
+                    "x": 3000,
+                    "y": 2086
                   },
                   "viewBox": {
                     "x": 700,
@@ -1042,7 +992,18 @@
                     "h": 3572
                   }
                 }
-              ]
+              ],
+              "preset": "custom",
+              "pathType": "linear",
+              "easing": "ease-out"
+            },
+            "playback": {
+              "entryTransition": {
+                "type": "tween",
+                "durationMs": 600,
+                "easing": "ease-out"
+              },
+              "transitionMs": 600
             }
           }
         }
@@ -1077,7 +1038,7 @@
       },
       "body": [
         {
-          "id": "https://www.artic.edu/assets/8313475f-a89a-035d-8a5b-93ac1bfcc69d#t=108.95,130",
+          "id": "https://404mike.github.io/uv4-manifest/mango/work/media/paris-street-rainy-day.mp3#t=108.95,130",
           "type": "Sound",
           "format": "audio/mp3",
           "language": "en"
@@ -1096,27 +1057,15 @@
               "w": 9987,
               "h": 7755
             },
-            "playback": {
-              "transitionMs": 600,
-              "entryTransition": {
-                "type": "tween",
-                "durationMs": 600,
-                "easing": "ease-out"
-              },
-              "delayMs": 500
-            },
             "cameraTrack": {
               "durationMs": 20850,
-              "preset": "custom",
-              "pathType": "linear",
-              "easing": "ease-out",
               "keyframes": [
                 {
                   "id": "a",
                   "timeMs": 0,
                   "focus": {
-                    "x": 3000.0,
-                    "y": 2086.0
+                    "x": 3000,
+                    "y": 2086
                   },
                   "viewBox": {
                     "x": 700,
@@ -1139,7 +1088,18 @@
                     "h": 7755
                   }
                 }
-              ]
+              ],
+              "preset": "custom",
+              "pathType": "linear",
+              "easing": "ease-out"
+            },
+            "playback": {
+              "entryTransition": {
+                "type": "tween",
+                "durationMs": 600,
+                "easing": "ease-out"
+              },
+              "transitionMs": 600
             }
           }
         }
