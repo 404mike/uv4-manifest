@@ -165,7 +165,8 @@
                     "w": 1230.8907420039748,
                     "h": 898.7785687819917
                   },
-                  "layerOpacities": {}
+                  "layerOpacities": {},
+                  "dwellMs": 2000
                 },
                 {
                   "id": "b",
