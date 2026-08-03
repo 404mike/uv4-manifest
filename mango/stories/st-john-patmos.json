@@ -85,14 +85,14 @@
                   "id": "b",
                   "timeMs": 9850,
                   "focus": {
-                    "x": 3625.0,
-                    "y": 3799.5
+                    "x": 3645.0,
+                    "y": 3820.0
                   },
                   "viewBox": {
-                    "x": 2950,
-                    "y": 3300,
-                    "w": 1350,
-                    "h": 999
+                    "x": 2870,
+                    "y": 3280,
+                    "w": 1550,
+                    "h": 1080
                   }
                 }
               ]
@@ -144,10 +144,10 @@
             "canvasIndex": 0,
             "canvasId": "https://www.artic.edu/iiif/2/aa870b0d-5a1b-660a-6dc6-56c12109cf6e",
             "viewBox": {
-              "x": 2950,
-              "y": 3300,
-              "w": 1920,
-              "h": 999
+              "x": 2870,
+              "y": 3280,
+              "w": 2060,
+              "h": 1080
             },
             "playback": {
               "transitionMs": 600,
@@ -167,28 +167,28 @@
                   "id": "a",
                   "timeMs": 0,
                   "focus": {
-                    "x": 3625.0,
-                    "y": 3799.5
+                    "x": 3645.0,
+                    "y": 3820.0
                   },
                   "viewBox": {
-                    "x": 2950,
-                    "y": 3300,
-                    "w": 1350,
-                    "h": 999
+                    "x": 2870,
+                    "y": 3280,
+                    "w": 1550,
+                    "h": 1080
                   }
                 },
                 {
                   "id": "b",
                   "timeMs": 4510,
                   "focus": {
-                    "x": 4495.0,
-                    "y": 3707.5
+                    "x": 4480.0,
+                    "y": 3720.0
                   },
                   "viewBox": {
-                    "x": 4120,
-                    "y": 3430,
-                    "w": 750,
-                    "h": 555
+                    "x": 4030,
+                    "y": 3400,
+                    "w": 900,
+                    "h": 640
                   }
                 }
               ]
@@ -206,7 +206,7 @@
         "selector": {
           "type": "FragmentSelector",
           "conformsTo": "http://www.w3.org/TR/media-frags/",
-          "value": "xywh=2950,3300,1920,999"
+          "value": "xywh=2870,3280,2060,1080"
         }
       }
     },
@@ -240,10 +240,10 @@
             "canvasIndex": 0,
             "canvasId": "https://www.artic.edu/iiif/2/aa870b0d-5a1b-660a-6dc6-56c12109cf6e",
             "viewBox": {
-              "x": 850,
-              "y": 2500,
-              "w": 4020,
-              "h": 1924
+              "x": 900,
+              "y": 2650,
+              "w": 4030,
+              "h": 1660
             },
             "playback": {
               "transitionMs": 600,
@@ -263,42 +263,43 @@
                   "id": "a",
                   "timeMs": 0,
                   "focus": {
-                    "x": 4495.0,
-                    "y": 3707.5
+                    "x": 4480.0,
+                    "y": 3720.0
                   },
                   "viewBox": {
-                    "x": 4120,
-                    "y": 3430,
-                    "w": 750,
-                    "h": 555
+                    "x": 4030,
+                    "y": 3400,
+                    "w": 900,
+                    "h": 640
                   }
                 },
                 {
                   "id": "b",
                   "timeMs": 4665,
                   "focus": {
-                    "x": 2150.0,
-                    "y": 3462.0
+                    "x": 2375.0,
+                    "y": 3935.0
                   },
                   "viewBox": {
-                    "x": 850,
-                    "y": 2500,
-                    "w": 2600,
-                    "h": 1924
-                  }
+                    "x": 1850,
+                    "y": 3560,
+                    "w": 1050,
+                    "h": 750
+                  },
+                  "dwellMs": 1400
                 },
                 {
                   "id": "c",
                   "timeMs": 9330,
                   "focus": {
-                    "x": 1850.0,
-                    "y": 3455.0
+                    "x": 1900.0,
+                    "y": 3350.0
                   },
                   "viewBox": {
-                    "x": 1100,
-                    "y": 2900,
-                    "w": 1500,
-                    "h": 1110
+                    "x": 900,
+                    "y": 2650,
+                    "w": 2000,
+                    "h": 1400
                   }
                 }
               ]
@@ -316,7 +317,7 @@
         "selector": {
           "type": "FragmentSelector",
           "conformsTo": "http://www.w3.org/TR/media-frags/",
-          "value": "xywh=850,2500,4020,1924"
+          "value": "xywh=900,2650,4030,1660"
         }
       }
     },
@@ -373,14 +374,14 @@
                   "id": "a",
                   "timeMs": 0,
                   "focus": {
-                    "x": 1850.0,
-                    "y": 3455.0
+                    "x": 1900.0,
+                    "y": 3350.0
                   },
                   "viewBox": {
-                    "x": 1100,
-                    "y": 2900,
-                    "w": 1500,
-                    "h": 1110
+                    "x": 900,
+                    "y": 2650,
+                    "w": 2000,
+                    "h": 1400
                   }
                 },
                 {
@@ -441,7 +442,7 @@
       },
       "summary": {
         "en": [
-          "A perfect example of Poussin's idealized classical landscapes, constructed with a sense of clarity and geometry."
+          "A perfect example of Poussin's idealized classical landscapes, constructed with a sense of clarity and geometry — hold still, and read the architecture of the whole composition."
         ]
       },
       "body": [
@@ -495,30 +496,16 @@
                 },
                 {
                   "id": "b",
-                  "timeMs": 4380,
+                  "timeMs": 8760,
                   "focus": {
-                    "x": 2100.0,
-                    "y": 2354.0
+                    "x": 3046.0,
+                    "y": 2254.0
                   },
                   "viewBox": {
                     "x": 0,
-                    "y": 800,
-                    "w": 4200,
-                    "h": 3108
-                  }
-                },
-                {
-                  "id": "c",
-                  "timeMs": 8760,
-                  "focus": {
-                    "x": 3990.0,
-                    "y": 2354.0
-                  },
-                  "viewBox": {
-                    "x": 1890,
-                    "y": 800,
-                    "w": 4200,
-                    "h": 3108
+                    "y": 0,
+                    "w": 6092,
+                    "h": 4508
                   }
                 }
               ]
@@ -570,10 +557,10 @@
             "canvasIndex": 0,
             "canvasId": "https://www.artic.edu/iiif/2/aa870b0d-5a1b-660a-6dc6-56c12109cf6e",
             "viewBox": {
-              "x": 1890,
-              "y": 800,
-              "w": 4200,
-              "h": 3108
+              "x": 0,
+              "y": 0,
+              "w": 6092,
+              "h": 4508
             },
             "playback": {
               "transitionMs": 600,
@@ -593,42 +580,42 @@
                   "id": "a",
                   "timeMs": 0,
                   "focus": {
-                    "x": 3990.0,
-                    "y": 2354.0
+                    "x": 3046.0,
+                    "y": 2254.0
                   },
                   "viewBox": {
-                    "x": 1890,
-                    "y": 800,
-                    "w": 4200,
-                    "h": 3108
+                    "x": 0,
+                    "y": 0,
+                    "w": 6092,
+                    "h": 4508
                   }
                 },
                 {
                   "id": "b",
                   "timeMs": 5465,
                   "focus": {
-                    "x": 4750.0,
-                    "y": 2701.0
+                    "x": 4600.0,
+                    "y": 2450.0
                   },
                   "viewBox": {
-                    "x": 3600,
-                    "y": 1850,
-                    "w": 2300,
-                    "h": 1702
+                    "x": 3750,
+                    "y": 1500,
+                    "w": 1700,
+                    "h": 1900
                   }
                 },
                 {
                   "id": "c",
                   "timeMs": 10930,
                   "focus": {
-                    "x": 4775.0,
-                    "y": 2136.5
+                    "x": 4655.0,
+                    "y": 2230.0
                   },
                   "viewBox": {
-                    "x": 4050,
-                    "y": 1600,
-                    "w": 1450,
-                    "h": 1073
+                    "x": 4080,
+                    "y": 1580,
+                    "w": 1150,
+                    "h": 1300
                   }
                 }
               ]
@@ -646,7 +633,7 @@
         "selector": {
           "type": "FragmentSelector",
           "conformsTo": "http://www.w3.org/TR/media-frags/",
-          "value": "xywh=1890,800,4200,3108"
+          "value": "xywh=0,0,6092,4508"
         }
       }
     },
@@ -680,10 +667,10 @@
             "canvasIndex": 0,
             "canvasId": "https://www.artic.edu/iiif/2/aa870b0d-5a1b-660a-6dc6-56c12109cf6e",
             "viewBox": {
-              "x": 850,
+              "x": 950,
               "y": 1300,
-              "w": 4650,
-              "h": 1904
+              "w": 4280,
+              "h": 2650
             },
             "playback": {
               "transitionMs": 600,
@@ -703,42 +690,43 @@
                   "id": "a",
                   "timeMs": 0,
                   "focus": {
-                    "x": 4775.0,
-                    "y": 2136.5
+                    "x": 4655.0,
+                    "y": 2230.0
                   },
                   "viewBox": {
-                    "x": 4050,
-                    "y": 1600,
-                    "w": 1450,
-                    "h": 1073
+                    "x": 4080,
+                    "y": 1580,
+                    "w": 1150,
+                    "h": 1300
                   }
                 },
                 {
                   "id": "b",
                   "timeMs": 6170,
                   "focus": {
-                    "x": 1900.0,
-                    "y": 2427.0
+                    "x": 1625.0,
+                    "y": 2900.0
                   },
                   "viewBox": {
-                    "x": 850,
-                    "y": 1650,
-                    "w": 2100,
-                    "h": 1554
-                  }
+                    "x": 950,
+                    "y": 1850,
+                    "w": 1350,
+                    "h": 2100
+                  },
+                  "dwellMs": 1400
                 },
                 {
                   "id": "c",
                   "timeMs": 12340,
                   "focus": {
-                    "x": 2775.0,
-                    "y": 1762.5
+                    "x": 2800.0,
+                    "y": 1775.0
                   },
                   "viewBox": {
                     "x": 2150,
                     "y": 1300,
-                    "w": 1250,
-                    "h": 925
+                    "w": 1300,
+                    "h": 950
                   }
                 }
               ]
@@ -756,7 +744,7 @@
         "selector": {
           "type": "FragmentSelector",
           "conformsTo": "http://www.w3.org/TR/media-frags/",
-          "value": "xywh=850,1300,4650,1904"
+          "value": "xywh=950,1300,4280,2650"
         }
       }
     },
@@ -813,14 +801,14 @@
                   "id": "a",
                   "timeMs": 0,
                   "focus": {
-                    "x": 2775.0,
-                    "y": 1762.5
+                    "x": 2800.0,
+                    "y": 1775.0
                   },
                   "viewBox": {
                     "x": 2150,
                     "y": 1300,
-                    "w": 1250,
-                    "h": 925
+                    "w": 1300,
+                    "h": 950
                   }
                 },
                 {
