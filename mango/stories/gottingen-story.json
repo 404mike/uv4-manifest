@@ -27,10 +27,8 @@
         ]
       },
       "body": {
-        "type": [
-          "Dataset",
-          "mango:ViewerState"
-        ],
+        "id": "https://404mike.github.io/uv4-manifest/mango/stories/gottingen-story.json/annotation/1/state",
+        "type": "mango:ViewerState",
         "format": "application/vnd.mango.story-state+json",
         "mangoState": {
           "canvasIndex": 0,
@@ -106,10 +104,8 @@
         ]
       },
       "body": {
-        "type": [
-          "Dataset",
-          "mango:ViewerState"
-        ],
+        "id": "https://404mike.github.io/uv4-manifest/mango/stories/gottingen-story.json/annotation/2/state",
+        "type": "mango:ViewerState",
         "format": "application/vnd.mango.story-state+json",
         "mangoState": {
           "canvasIndex": 0,
@@ -185,10 +181,8 @@
         ]
       },
       "body": {
-        "type": [
-          "Dataset",
-          "mango:ViewerState"
-        ],
+        "id": "https://404mike.github.io/uv4-manifest/mango/stories/gottingen-story.json/annotation/3/state",
+        "type": "mango:ViewerState",
         "format": "application/vnd.mango.story-state+json",
         "mangoState": {
           "canvasIndex": 0,
@@ -264,10 +258,8 @@
         ]
       },
       "body": {
-        "type": [
-          "Dataset",
-          "mango:ViewerState"
-        ],
+        "id": "https://404mike.github.io/uv4-manifest/mango/stories/gottingen-story.json/annotation/4/state",
+        "type": "mango:ViewerState",
         "format": "application/vnd.mango.story-state+json",
         "mangoState": {
           "canvasIndex": 0,
@@ -343,10 +335,8 @@
         ]
       },
       "body": {
-        "type": [
-          "Dataset",
-          "mango:ViewerState"
-        ],
+        "id": "https://404mike.github.io/uv4-manifest/mango/stories/gottingen-story.json/annotation/5/state",
+        "type": "mango:ViewerState",
         "format": "application/vnd.mango.story-state+json",
         "mangoState": {
           "canvasIndex": 0,
@@ -477,10 +467,8 @@
         ]
       },
       "body": {
-        "type": [
-          "Dataset",
-          "mango:ViewerState"
-        ],
+        "id": "https://404mike.github.io/uv4-manifest/mango/stories/gottingen-story.json/annotation/6/state",
+        "type": "mango:ViewerState",
         "format": "application/vnd.mango.story-state+json",
         "mangoState": {
           "canvasIndex": 0,

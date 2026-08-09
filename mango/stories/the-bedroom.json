@@ -34,10 +34,8 @@
           "language": "en"
         },
         {
-          "type": [
-            "Dataset",
-            "mango:ViewerState"
-          ],
+          "id": "https://404mike.github.io/uv4-manifest/the-bedroom.json/annotation/chapter_1/state",
+          "type": "mango:ViewerState",
           "format": "application/vnd.mango.story-state+json",
           "mangoState": {
             "canvasIndex": 0,
@@ -130,10 +128,8 @@
           "language": "en"
         },
         {
-          "type": [
-            "Dataset",
-            "mango:ViewerState"
-          ],
+          "id": "https://404mike.github.io/uv4-manifest/the-bedroom.json/annotation/chapter_2/state",
+          "type": "mango:ViewerState",
           "format": "application/vnd.mango.story-state+json",
           "mangoState": {
             "canvasIndex": 0,
@@ -240,10 +236,8 @@
           "language": "en"
         },
         {
-          "type": [
-            "Dataset",
-            "mango:ViewerState"
-          ],
+          "id": "https://404mike.github.io/uv4-manifest/the-bedroom.json/annotation/chapter_3/state",
+          "type": "mango:ViewerState",
           "format": "application/vnd.mango.story-state+json",
           "mangoState": {
             "canvasIndex": 0,
@@ -350,10 +344,8 @@
           "language": "en"
         },
         {
-          "type": [
-            "Dataset",
-            "mango:ViewerState"
-          ],
+          "id": "https://404mike.github.io/uv4-manifest/the-bedroom.json/annotation/chapter_4/state",
+          "type": "mango:ViewerState",
           "format": "application/vnd.mango.story-state+json",
           "mangoState": {
             "canvasIndex": 0,
@@ -460,10 +452,8 @@
           "language": "en"
         },
         {
-          "type": [
-            "Dataset",
-            "mango:ViewerState"
-          ],
+          "id": "https://404mike.github.io/uv4-manifest/the-bedroom.json/annotation/chapter_5/state",
+          "type": "mango:ViewerState",
           "format": "application/vnd.mango.story-state+json",
           "mangoState": {
             "canvasIndex": 0,
@@ -585,10 +575,8 @@
           "language": "en"
         },
         {
-          "type": [
-            "Dataset",
-            "mango:ViewerState"
-          ],
+          "id": "https://404mike.github.io/uv4-manifest/the-bedroom.json/annotation/chapter_6/state",
+          "type": "mango:ViewerState",
           "format": "application/vnd.mango.story-state+json",
           "mangoState": {
             "canvasIndex": 0,
@@ -695,10 +683,8 @@
           "language": "en"
         },
         {
-          "type": [
-            "Dataset",
-            "mango:ViewerState"
-          ],
+          "id": "https://404mike.github.io/uv4-manifest/the-bedroom.json/annotation/chapter_7/state",
+          "type": "mango:ViewerState",
           "format": "application/vnd.mango.story-state+json",
           "mangoState": {
             "canvasIndex": 0,
@@ -805,10 +791,8 @@
           "language": "en"
         },
         {
-          "type": [
-            "Dataset",
-            "mango:ViewerState"
-          ],
+          "id": "https://404mike.github.io/uv4-manifest/the-bedroom.json/annotation/chapter_8/state",
+          "type": "mango:ViewerState",
           "format": "application/vnd.mango.story-state+json",
           "mangoState": {
             "canvasIndex": 0,
@@ -915,10 +899,8 @@
           "language": "en"
         },
         {
-          "type": [
-            "Dataset",
-            "mango:ViewerState"
-          ],
+          "id": "https://404mike.github.io/uv4-manifest/the-bedroom.json/annotation/chapter_9/state",
+          "type": "mango:ViewerState",
           "format": "application/vnd.mango.story-state+json",
           "mangoState": {
             "canvasIndex": 0,

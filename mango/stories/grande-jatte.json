@@ -34,10 +34,8 @@
           "language": "en"
         },
         {
-          "type": [
-            "Dataset",
-            "mango:ViewerState"
-          ],
+          "id": "https://mango-iiif.github.io/stories/a-sunday-on-la-grande-jatte/annotation/chapter_1/state",
+          "type": "mango:ViewerState",
           "format": "application/vnd.mango.story-state+json",
           "mangoState": {
             "canvasIndex": 0,
@@ -118,10 +116,8 @@
           "language": "en"
         },
         {
-          "type": [
-            "Dataset",
-            "mango:ViewerState"
-          ],
+          "id": "https://mango-iiif.github.io/stories/a-sunday-on-la-grande-jatte/annotation/chapter_2/state",
+          "type": "mango:ViewerState",
           "format": "application/vnd.mango.story-state+json",
           "mangoState": {
             "canvasIndex": 0,
@@ -202,10 +198,8 @@
           "language": "en"
         },
         {
-          "type": [
-            "Dataset",
-            "mango:ViewerState"
-          ],
+          "id": "https://mango-iiif.github.io/stories/a-sunday-on-la-grande-jatte/annotation/chapter_3/state",
+          "type": "mango:ViewerState",
           "format": "application/vnd.mango.story-state+json",
           "mangoState": {
             "canvasIndex": 0,
@@ -257,10 +251,8 @@
           "language": "en"
         },
         {
-          "type": [
-            "Dataset",
-            "mango:ViewerState"
-          ],
+          "id": "https://mango-iiif.github.io/stories/a-sunday-on-la-grande-jatte/annotation/chapter_4/state",
+          "type": "mango:ViewerState",
           "format": "application/vnd.mango.story-state+json",
           "mangoState": {
             "canvasIndex": 0,
@@ -340,10 +332,8 @@
           "language": "en"
         },
         {
-          "type": [
-            "Dataset",
-            "mango:ViewerState"
-          ],
+          "id": "https://mango-iiif.github.io/stories/a-sunday-on-la-grande-jatte/annotation/chapter_5/state",
+          "type": "mango:ViewerState",
           "format": "application/vnd.mango.story-state+json",
           "mangoState": {
             "canvasIndex": 0,
@@ -424,10 +414,8 @@
           "language": "en"
         },
         {
-          "type": [
-            "Dataset",
-            "mango:ViewerState"
-          ],
+          "id": "https://mango-iiif.github.io/stories/a-sunday-on-la-grande-jatte/annotation/chapter_6/state",
+          "type": "mango:ViewerState",
           "format": "application/vnd.mango.story-state+json",
           "mangoState": {
             "canvasIndex": 0,
@@ -507,10 +495,8 @@
           "language": "en"
         },
         {
-          "type": [
-            "Dataset",
-            "mango:ViewerState"
-          ],
+          "id": "https://mango-iiif.github.io/stories/a-sunday-on-la-grande-jatte/annotation/chapter_7/state",
+          "type": "mango:ViewerState",
           "format": "application/vnd.mango.story-state+json",
           "mangoState": {
             "canvasIndex": 0,
@@ -590,10 +576,8 @@
           "language": "en"
         },
         {
-          "type": [
-            "Dataset",
-            "mango:ViewerState"
-          ],
+          "id": "https://mango-iiif.github.io/stories/a-sunday-on-la-grande-jatte/annotation/chapter_8/state",
+          "type": "mango:ViewerState",
           "format": "application/vnd.mango.story-state+json",
           "mangoState": {
             "canvasIndex": 0,
@@ -674,10 +658,8 @@
           "language": "en"
         },
         {
-          "type": [
-            "Dataset",
-            "mango:ViewerState"
-          ],
+          "id": "https://mango-iiif.github.io/stories/a-sunday-on-la-grande-jatte/annotation/chapter_9/state",
+          "type": "mango:ViewerState",
           "format": "application/vnd.mango.story-state+json",
           "mangoState": {
             "canvasIndex": 0,
@@ -758,10 +740,8 @@
           "language": "en"
         },
         {
-          "type": [
-            "Dataset",
-            "mango:ViewerState"
-          ],
+          "id": "https://mango-iiif.github.io/stories/a-sunday-on-la-grande-jatte/annotation/chapter_10/state",
+          "type": "mango:ViewerState",
           "format": "application/vnd.mango.story-state+json",
           "mangoState": {
             "canvasIndex": 0,
@@ -842,10 +822,8 @@
           "language": "en"
         },
         {
-          "type": [
-            "Dataset",
-            "mango:ViewerState"
-          ],
+          "id": "https://mango-iiif.github.io/stories/a-sunday-on-la-grande-jatte/annotation/chapter_11/state",
+          "type": "mango:ViewerState",
           "format": "application/vnd.mango.story-state+json",
           "mangoState": {
             "canvasIndex": 0,
@@ -925,10 +903,8 @@
           "language": "en"
         },
         {
-          "type": [
-            "Dataset",
-            "mango:ViewerState"
-          ],
+          "id": "https://mango-iiif.github.io/stories/a-sunday-on-la-grande-jatte/annotation/chapter_12/state",
+          "type": "mango:ViewerState",
           "format": "application/vnd.mango.story-state+json",
           "mangoState": {
             "canvasIndex": 0,
