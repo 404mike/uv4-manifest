@@ -1,17 +1,11 @@
 {
   "@context": [
-    "http://iiif.io/api/presentation/3/context.json",
-    {
-      "mango": "https://mango-iiif.github.io/ns/story#",
-      "mangoState": {
-        "@id": "mango:state",
-        "@type": "@json"
-      }
-    }
+    "http://www.w3.org/ns/anno.jsonld",
+    "https://mangoviewer.dev/schema/story/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
   ],
   "id": "https://404mike.github.io/uv4-manifest/stoke-by-nayland.json",
   "type": "AnnotationPage",
-  "mango:storyVersion": "1.0",
   "label": {
     "en": [
       "Stoke-by-Nayland — John Constable"
@@ -40,13 +34,13 @@
           "language": "en"
         },
         {
-          "type": "mango:ViewerState",
+          "type": [
+            "Dataset",
+            "mango:ViewerState"
+          ],
           "format": "application/vnd.mango.story-state+json",
-          "mango:storyVersion": "1.0",
           "mangoState": {
-            "chapterId": "chapter_1",
             "canvasIndex": 0,
-            "canvasId": "https://www.artic.edu/iiif/2/400ce9e8-2f67-44e2-dd68-e6c98880d27f",
             "viewBox": {
               "x": 0,
               "y": 0,
@@ -71,7 +65,7 @@
                   "id": "a",
                   "timeMs": 0,
                   "focus": {
-                    "x": 4345.0,
+                    "x": 4345,
                     "y": 3198.5
                   },
                   "viewBox": {
@@ -85,7 +79,7 @@
                   "id": "b",
                   "timeMs": 13500,
                   "focus": {
-                    "x": 4350.0,
+                    "x": 4350,
                     "y": 3189.5
                   },
                   "viewBox": {
@@ -136,13 +130,13 @@
           "language": "en"
         },
         {
-          "type": "mango:ViewerState",
+          "type": [
+            "Dataset",
+            "mango:ViewerState"
+          ],
           "format": "application/vnd.mango.story-state+json",
-          "mango:storyVersion": "1.0",
           "mangoState": {
-            "chapterId": "chapter_2",
             "canvasIndex": 0,
-            "canvasId": "https://www.artic.edu/iiif/2/400ce9e8-2f67-44e2-dd68-e6c98880d27f",
             "viewBox": {
               "x": 900,
               "y": 650,
@@ -167,7 +161,7 @@
                   "id": "a",
                   "timeMs": 0,
                   "focus": {
-                    "x": 4350.0,
+                    "x": 4350,
                     "y": 3189.5
                   },
                   "viewBox": {
@@ -181,8 +175,8 @@
                   "id": "b",
                   "timeMs": 3570,
                   "focus": {
-                    "x": 3300.0,
-                    "y": 1500.0
+                    "x": 3300,
+                    "y": 1500
                   },
                   "viewBox": {
                     "x": 2400,
@@ -196,8 +190,8 @@
                   "id": "c",
                   "timeMs": 7140,
                   "focus": {
-                    "x": 3525.0,
-                    "y": 1750.0
+                    "x": 3525,
+                    "y": 1750
                   },
                   "viewBox": {
                     "x": 2900,
@@ -247,13 +241,13 @@
           "language": "en"
         },
         {
-          "type": "mango:ViewerState",
+          "type": [
+            "Dataset",
+            "mango:ViewerState"
+          ],
           "format": "application/vnd.mango.story-state+json",
-          "mango:storyVersion": "1.0",
           "mangoState": {
-            "chapterId": "chapter_3",
             "canvasIndex": 0,
-            "canvasId": "https://www.artic.edu/iiif/2/400ce9e8-2f67-44e2-dd68-e6c98880d27f",
             "viewBox": {
               "x": 1850,
               "y": 1300,
@@ -278,8 +272,8 @@
                   "id": "a",
                   "timeMs": 0,
                   "focus": {
-                    "x": 3525.0,
-                    "y": 1750.0
+                    "x": 3525,
+                    "y": 1750
                   },
                   "viewBox": {
                     "x": 2900,
@@ -292,8 +286,8 @@
                   "id": "b",
                   "timeMs": 4765,
                   "focus": {
-                    "x": 2700.0,
-                    "y": 4875.0
+                    "x": 2700,
+                    "y": 4875
                   },
                   "viewBox": {
                     "x": 1850,
@@ -306,8 +300,8 @@
                   "id": "c",
                   "timeMs": 9530,
                   "focus": {
-                    "x": 4050.0,
-                    "y": 5225.0
+                    "x": 4050,
+                    "y": 5225
                   },
                   "viewBox": {
                     "x": 3250,
@@ -357,13 +351,13 @@
           "language": "en"
         },
         {
-          "type": "mango:ViewerState",
+          "type": [
+            "Dataset",
+            "mango:ViewerState"
+          ],
           "format": "application/vnd.mango.story-state+json",
-          "mango:storyVersion": "1.0",
           "mangoState": {
-            "chapterId": "chapter_4",
             "canvasIndex": 0,
-            "canvasId": "https://www.artic.edu/iiif/2/400ce9e8-2f67-44e2-dd68-e6c98880d27f",
             "viewBox": {
               "x": 3250,
               "y": 1100,
@@ -388,8 +382,8 @@
                   "id": "a",
                   "timeMs": 0,
                   "focus": {
-                    "x": 4050.0,
-                    "y": 5225.0
+                    "x": 4050,
+                    "y": 5225
                   },
                   "viewBox": {
                     "x": 3250,
@@ -402,8 +396,8 @@
                   "id": "b",
                   "timeMs": 4695,
                   "focus": {
-                    "x": 4600.0,
-                    "y": 2150.0
+                    "x": 4600,
+                    "y": 2150
                   },
                   "viewBox": {
                     "x": 3850,
@@ -416,8 +410,8 @@
                   "id": "c",
                   "timeMs": 9390,
                   "focus": {
-                    "x": 4300.0,
-                    "y": 4625.0
+                    "x": 4300,
+                    "y": 4625
                   },
                   "viewBox": {
                     "x": 3450,
@@ -467,13 +461,13 @@
           "language": "en"
         },
         {
-          "type": "mango:ViewerState",
+          "type": [
+            "Dataset",
+            "mango:ViewerState"
+          ],
           "format": "application/vnd.mango.story-state+json",
-          "mango:storyVersion": "1.0",
           "mangoState": {
-            "chapterId": "chapter_5",
             "canvasIndex": 0,
-            "canvasId": "https://www.artic.edu/iiif/2/400ce9e8-2f67-44e2-dd68-e6c98880d27f",
             "viewBox": {
               "x": 1500,
               "y": 4050,
@@ -498,8 +492,8 @@
                   "id": "a",
                   "timeMs": 0,
                   "focus": {
-                    "x": 4300.0,
-                    "y": 4625.0
+                    "x": 4300,
+                    "y": 4625
                   },
                   "viewBox": {
                     "x": 3450,
@@ -512,8 +506,8 @@
                   "id": "b",
                   "timeMs": 5810,
                   "focus": {
-                    "x": 5900.0,
-                    "y": 5500.0
+                    "x": 5900,
+                    "y": 5500
                   },
                   "viewBox": {
                     "x": 4800,
@@ -526,8 +520,8 @@
                   "id": "c",
                   "timeMs": 11620,
                   "focus": {
-                    "x": 2600.0,
-                    "y": 5500.0
+                    "x": 2600,
+                    "y": 5500
                   },
                   "viewBox": {
                     "x": 1500,
@@ -577,13 +571,13 @@
           "language": "en"
         },
         {
-          "type": "mango:ViewerState",
+          "type": [
+            "Dataset",
+            "mango:ViewerState"
+          ],
           "format": "application/vnd.mango.story-state+json",
-          "mango:storyVersion": "1.0",
           "mangoState": {
-            "chapterId": "chapter_6",
             "canvasIndex": 0,
-            "canvasId": "https://www.artic.edu/iiif/2/400ce9e8-2f67-44e2-dd68-e6c98880d27f",
             "viewBox": {
               "x": 300,
               "y": 200,
@@ -608,8 +602,8 @@
                   "id": "a",
                   "timeMs": 0,
                   "focus": {
-                    "x": 2600.0,
-                    "y": 5500.0
+                    "x": 2600,
+                    "y": 5500
                   },
                   "viewBox": {
                     "x": 1500,
@@ -622,7 +616,7 @@
                   "id": "b",
                   "timeMs": 11000,
                   "focus": {
-                    "x": 4350.0,
+                    "x": 4350,
                     "y": 3181.5
                   },
                   "viewBox": {
@@ -673,13 +667,13 @@
           "language": "en"
         },
         {
-          "type": "mango:ViewerState",
+          "type": [
+            "Dataset",
+            "mango:ViewerState"
+          ],
           "format": "application/vnd.mango.story-state+json",
-          "mango:storyVersion": "1.0",
           "mangoState": {
-            "chapterId": "chapter_7",
             "canvasIndex": 0,
-            "canvasId": "https://www.artic.edu/iiif/2/400ce9e8-2f67-44e2-dd68-e6c98880d27f",
             "viewBox": {
               "x": 300,
               "y": 200,
@@ -704,7 +698,7 @@
                   "id": "a",
                   "timeMs": 0,
                   "focus": {
-                    "x": 4350.0,
+                    "x": 4350,
                     "y": 3181.5
                   },
                   "viewBox": {
@@ -718,8 +712,8 @@
                   "id": "b",
                   "timeMs": 9000,
                   "focus": {
-                    "x": 2600.0,
-                    "y": 3346.0
+                    "x": 2600,
+                    "y": 3346
                   },
                   "viewBox": {
                     "x": 500,
@@ -732,8 +726,8 @@
                   "id": "c",
                   "timeMs": 18000,
                   "focus": {
-                    "x": 1775.0,
-                    "y": 3175.0
+                    "x": 1775,
+                    "y": 3175
                   },
                   "viewBox": {
                     "x": 1150,
@@ -783,13 +777,13 @@
           "language": "en"
         },
         {
-          "type": "mango:ViewerState",
+          "type": [
+            "Dataset",
+            "mango:ViewerState"
+          ],
           "format": "application/vnd.mango.story-state+json",
-          "mango:storyVersion": "1.0",
           "mangoState": {
-            "chapterId": "chapter_8",
             "canvasIndex": 0,
-            "canvasId": "https://www.artic.edu/iiif/2/400ce9e8-2f67-44e2-dd68-e6c98880d27f",
             "viewBox": {
               "x": 0,
               "y": 0,
@@ -815,8 +809,8 @@
                   "id": "a",
                   "timeMs": 0,
                   "focus": {
-                    "x": 1775.0,
-                    "y": 3175.0
+                    "x": 1775,
+                    "y": 3175
                   },
                   "viewBox": {
                     "x": 1150,
@@ -829,7 +823,7 @@
                   "id": "b",
                   "timeMs": 12220,
                   "focus": {
-                    "x": 4345.0,
+                    "x": 4345,
                     "y": 3198.5
                   },
                   "viewBox": {
