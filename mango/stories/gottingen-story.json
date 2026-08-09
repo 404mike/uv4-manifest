@@ -352,10 +352,10 @@
           "canvasIndex": 0,
           "presentationAspect": 1.2604166666666665,
           "viewBox": {
-            "x": 2478.9196094243825,
-            "y": 671.9114256590142,
-            "w": 1142.1607811512351,
-            "h": 906.1771486819717
+            "x": 2582.3663866072416,
+            "y": 1232.2390414515728,
+            "w": 1210.1489912043323,
+            "h": 960.1182078976522
           },
           "drawingAnnotations": [
             {
@@ -440,7 +440,7 @@
         "selector": {
           "type": "FragmentSelector",
           "conformsTo": "http://www.w3.org/TR/media-frags/",
-          "value": "xywh=2479,672,1142,906"
+          "value": "xywh=2582,1232,1210,960"
         }
       }
     },
@@ -486,20 +486,20 @@
           "canvasIndex": 0,
           "presentationAspect": 1.2604166666666665,
           "viewBox": {
-            "x": 1294.8641906689732,
-            "y": 1781.875721522491,
-            "w": 1810.271618662054,
-            "h": 1436.248556955018
+            "x": 2636.290425756747,
+            "y": 1085.522236198064,
+            "w": 1355.3136464275735,
+            "h": 1075.2901657607197
           },
           "drawingAnnotations": [
             {
               "id": "6-region",
               "type": "rectangle",
               "rect": {
-                "x": 900,
-                "y": 2000,
-                "w": 2600,
-                "h": 1000
+                "x": 3686.0029021153327,
+                "y": 1309.0933,
+                "w": 293.2324978846673,
+                "h": 623.3199607753452
               }
             }
           ],
@@ -518,7 +518,7 @@
         "selector": {
           "type": "FragmentSelector",
           "conformsTo": "http://www.w3.org/TR/media-frags/",
-          "value": "xywh=1295,1782,1810,1436"
+          "value": "xywh=2636,1086,1355,1075"
         }
       }
     },
@@ -536,7 +536,7 @@
         "selector": {
           "type": "FragmentSelector",
           "conformsTo": "http://www.w3.org/TR/media-frags/",
-          "value": "xywh=900,2000,2600,1000"
+          "value": "xywh=3686.0029,1309.0933,293.2325,623.32"
         },
         "styleClass": "story-6-region"
       }
