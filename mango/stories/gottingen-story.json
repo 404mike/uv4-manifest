@@ -1,6 +1,7 @@
 {
   "@context": [
     "http://www.w3.org/ns/anno.jsonld",
+    "https://mangoviewer.dev/schema/story/1/context.json",
     "http://iiif.io/api/presentation/3/context.json"
   ],
   "id": "https://404mike.github.io/uv4-manifest/mango/stories/gottingen-story.json",
@@ -14,193 +15,530 @@
     {
       "id": "https://404mike.github.io/uv4-manifest/mango/stories/gottingen-story.json/annotation/1",
       "type": "Annotation",
-      "motivation": "commenting",
+      "motivation": "supplementing",
       "label": {
         "en": [
           "The market square"
         ]
       },
+      "summary": {
+        "en": [
+          "An August evening on the Markt in Göttingen, photographed during the 2019 IIIF Conference. The square is still warm, the café awnings are out, and the light is going."
+        ]
+      },
       "body": {
-        "type": "TextualBody",
-        "value": "An August evening on the Markt in Göttingen, photographed during the 2019 IIIF Conference. The square is still warm, the café awnings are out, and the light is going.",
-        "format": "text/plain",
-        "language": "en",
-        "purpose": "describing"
+        "type": [
+          "Dataset",
+          "mango:ViewerState"
+        ],
+        "format": "application/vnd.mango.story-state+json",
+        "mangoState": {
+          "canvasIndex": 0,
+          "presentationAspect": 1.2604166666666665,
+          "viewBox": {
+            "x": 153.04859497864356,
+            "y": 979.3692777747538,
+            "w": 1947.5227495417155,
+            "h": 1545.1420161653282
+          },
+          "drawingAnnotations": [
+            {
+              "id": "1-region",
+              "type": "rectangle",
+              "rect": {
+                "x": 461.9992,
+                "y": 1368.0656634759177,
+                "w": 1021.6421,
+                "h": 511.9863365240824
+              }
+            }
+          ],
+          "playback": {
+            "transitionMs": 2000
+          }
+        }
+      },
+      "target": {
+        "source": "https://iiif.io/api/cookbook/recipe/0005-image-service/canvas/p1",
+        "type": "SpecificResource",
+        "partOf": {
+          "id": "https://iiif.io/api/cookbook/recipe/0005-image-service/manifest.json",
+          "type": "Manifest"
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=153,979,1948,1545"
+        }
+      }
+    },
+    {
+      "id": "https://404mike.github.io/uv4-manifest/mango/stories/gottingen-story.json/annotation/1/overlay/drawing/1-region",
+      "type": "Annotation",
+      "motivation": "highlighting",
+      "stylesheet": {
+        "type": "CssStylesheet",
+        "value": ".story-1-region { stroke: #e07a3f; fill: rgba(224, 122, 63, 0.16); stroke-width: 2.5px; }"
       },
       "target": {
         "type": "SpecificResource",
         "source": "https://iiif.io/api/cookbook/recipe/0005-image-service/canvas/p1",
-        "partOf": [
-          {
-            "id": "https://iiif.io/api/cookbook/recipe/0005-image-service/manifest.json",
-            "type": "Manifest"
-          }
-        ],
         "selector": {
           "type": "FragmentSelector",
           "conformsTo": "http://www.w3.org/TR/media-frags/",
-          "value": "xywh=0,0,4032,3024"
-        }
+          "value": "xywh=461.9992,1368.0657,1021.6421,511.9863"
+        },
+        "styleClass": "story-1-region"
       }
     },
     {
       "id": "https://404mike.github.io/uv4-manifest/mango/stories/gottingen-story.json/annotation/2",
       "type": "Annotation",
-      "motivation": "commenting",
+      "motivation": "supplementing",
       "label": {
         "en": [
           "The Altes Rathaus"
         ]
       },
+      "summary": {
+        "en": [
+          "The old town hall closes the west side of the square: a stone hall with a crenellated parapet above and a gothic arcade at street level, its pointed arches now shading café tables."
+        ]
+      },
       "body": {
-        "type": "TextualBody",
-        "value": "The old town hall closes the west side of the square: a stone hall with a crenellated parapet above and a gothic arcade at street level, its pointed arches now shading café tables.",
-        "format": "text/plain",
-        "language": "en",
-        "purpose": "describing"
+        "type": [
+          "Dataset",
+          "mango:ViewerState"
+        ],
+        "format": "application/vnd.mango.story-state+json",
+        "mangoState": {
+          "canvasIndex": 0,
+          "presentationAspect": 1.2604166666666665,
+          "viewBox": {
+            "x": 92.40904050114455,
+            "y": 132.8506395295069,
+            "w": 2488.7811344651645,
+            "h": 1974.5701562698828
+          },
+          "drawingAnnotations": [
+            {
+              "id": "2-region",
+              "type": "rectangle",
+              "rect": {
+                "x": 774.6777510353941,
+                "y": 580.0980158061194,
+                "w": 1301.1779999999999,
+                "h": 922.1759000000001
+              }
+            }
+          ],
+          "playback": {
+            "transitionMs": 2000
+          }
+        }
+      },
+      "target": {
+        "source": "https://iiif.io/api/cookbook/recipe/0005-image-service/canvas/p1",
+        "type": "SpecificResource",
+        "partOf": {
+          "id": "https://iiif.io/api/cookbook/recipe/0005-image-service/manifest.json",
+          "type": "Manifest"
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=92,133,2489,1975"
+        }
+      }
+    },
+    {
+      "id": "https://404mike.github.io/uv4-manifest/mango/stories/gottingen-story.json/annotation/2/overlay/drawing/2-region",
+      "type": "Annotation",
+      "motivation": "highlighting",
+      "stylesheet": {
+        "type": "CssStylesheet",
+        "value": ".story-2-region { stroke: #e07a3f; fill: rgba(224, 122, 63, 0.16); stroke-width: 2.5px; }"
       },
       "target": {
         "type": "SpecificResource",
         "source": "https://iiif.io/api/cookbook/recipe/0005-image-service/canvas/p1",
-        "partOf": [
-          {
-            "id": "https://iiif.io/api/cookbook/recipe/0005-image-service/manifest.json",
-            "type": "Manifest"
-          }
-        ],
         "selector": {
           "type": "FragmentSelector",
           "conformsTo": "http://www.w3.org/TR/media-frags/",
-          "value": "xywh=0,0,1900,1600"
-        }
+          "value": "xywh=774.6778,580.098,1301.178,922.1759"
+        },
+        "styleClass": "story-2-region"
       }
     },
     {
       "id": "https://404mike.github.io/uv4-manifest/mango/stories/gottingen-story.json/annotation/3",
       "type": "Annotation",
-      "motivation": "commenting",
+      "motivation": "supplementing",
       "label": {
         "en": [
           "The Gänseliesel fountain"
         ]
       },
+      "summary": {
+        "en": [
+          "Under the wrought-iron canopy stands the Gänseliesel, the goose girl. Doctoral graduates in Göttingen traditionally climb up to kiss her, which has earned the figure a reputation as one of the most kissed statues anywhere."
+        ]
+      },
       "body": {
-        "type": "TextualBody",
-        "value": "Under the wrought-iron canopy stands the Gänseliesel, the goose girl. Doctoral graduates in Göttingen traditionally climb up to kiss her, which has earned the figure a reputation as one of the most kissed statues anywhere.",
-        "format": "text/plain",
-        "language": "en",
-        "purpose": "describing"
+        "type": [
+          "Dataset",
+          "mango:ViewerState"
+        ],
+        "format": "application/vnd.mango.story-state+json",
+        "mangoState": {
+          "canvasIndex": 0,
+          "presentationAspect": 1.2604166666666665,
+          "viewBox": {
+            "x": 61.79666364530772,
+            "y": 535.9140926960032,
+            "w": 2048.887900473585,
+            "h": 1625.5639540947452
+          },
+          "drawingAnnotations": [
+            {
+              "id": "3-region",
+              "type": "rectangle",
+              "rect": {
+                "x": 700,
+                "y": 850,
+                "w": 386.61935039221316,
+                "h": 1003.1394298738592
+              }
+            }
+          ],
+          "playback": {
+            "transitionMs": 2000
+          }
+        }
+      },
+      "target": {
+        "source": "https://iiif.io/api/cookbook/recipe/0005-image-service/canvas/p1",
+        "type": "SpecificResource",
+        "partOf": {
+          "id": "https://iiif.io/api/cookbook/recipe/0005-image-service/manifest.json",
+          "type": "Manifest"
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=62,536,2049,1626"
+        }
+      }
+    },
+    {
+      "id": "https://404mike.github.io/uv4-manifest/mango/stories/gottingen-story.json/annotation/3/overlay/drawing/3-region",
+      "type": "Annotation",
+      "motivation": "highlighting",
+      "stylesheet": {
+        "type": "CssStylesheet",
+        "value": ".story-3-region { stroke: #e07a3f; fill: rgba(224, 122, 63, 0.16); stroke-width: 2.5px; }"
       },
       "target": {
         "type": "SpecificResource",
         "source": "https://iiif.io/api/cookbook/recipe/0005-image-service/canvas/p1",
-        "partOf": [
-          {
-            "id": "https://iiif.io/api/cookbook/recipe/0005-image-service/manifest.json",
-            "type": "Manifest"
-          }
-        ],
         "selector": {
           "type": "FragmentSelector",
           "conformsTo": "http://www.w3.org/TR/media-frags/",
-          "value": "xywh=700,850,600,1150"
-        }
+          "value": "xywh=700,850,386.6194,1003.1394"
+        },
+        "styleClass": "story-3-region"
       }
     },
     {
       "id": "https://404mike.github.io/uv4-manifest/mango/stories/gottingen-story.json/annotation/4",
       "type": "Annotation",
-      "motivation": "commenting",
+      "motivation": "supplementing",
       "label": {
         "en": [
           "Flags and café tables"
         ]
       },
+      "summary": {
+        "en": [
+          "Rainbow banners hang between the town hall windows, above a window box of pink and white flowers. Beneath the white parasols the tables are busy, and a small dog crosses the empty paving in front of them."
+        ]
+      },
       "body": {
-        "type": "TextualBody",
-        "value": "Rainbow banners hang between the town hall windows, above a window box of pink and white flowers. Beneath the white parasols the tables are busy, and a small dog crosses the empty paving in front of them.",
-        "format": "text/plain",
-        "language": "en",
-        "purpose": "describing"
+        "type": [
+          "Dataset",
+          "mango:ViewerState"
+        ],
+        "format": "application/vnd.mango.story-state+json",
+        "mangoState": {
+          "canvasIndex": 0,
+          "presentationAspect": 1.2604166666666665,
+          "viewBox": {
+            "x": 1321.656537856406,
+            "y": 1548.904332934352,
+            "w": 585.1673549791828,
+            "h": 464.2650089091038
+          },
+          "drawingAnnotations": [
+            {
+              "id": "4-region",
+              "type": "rectangle",
+              "rect": {
+                "x": 1561.8006713039983,
+                "y": 1699.1236916073128,
+                "w": 110.42270000000008,
+                "h": 62.23919999999998
+              }
+            }
+          ],
+          "playback": {
+            "transitionMs": 2000
+          }
+        }
+      },
+      "target": {
+        "source": "https://iiif.io/api/cookbook/recipe/0005-image-service/canvas/p1",
+        "type": "SpecificResource",
+        "partOf": {
+          "id": "https://iiif.io/api/cookbook/recipe/0005-image-service/manifest.json",
+          "type": "Manifest"
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=1322,1549,585,464"
+        }
+      }
+    },
+    {
+      "id": "https://404mike.github.io/uv4-manifest/mango/stories/gottingen-story.json/annotation/4/overlay/drawing/4-region",
+      "type": "Annotation",
+      "motivation": "highlighting",
+      "stylesheet": {
+        "type": "CssStylesheet",
+        "value": ".story-4-region { stroke: #e07a3f; fill: rgba(224, 122, 63, 0.16); stroke-width: 2.5px; }"
       },
       "target": {
         "type": "SpecificResource",
         "source": "https://iiif.io/api/cookbook/recipe/0005-image-service/canvas/p1",
-        "partOf": [
-          {
-            "id": "https://iiif.io/api/cookbook/recipe/0005-image-service/manifest.json",
-            "type": "Manifest"
-          }
-        ],
         "selector": {
           "type": "FragmentSelector",
           "conformsTo": "http://www.w3.org/TR/media-frags/",
-          "value": "xywh=1150,900,1100,800"
-        }
+          "value": "xywh=1561.8007,1699.1237,110.4227,62.2392"
+        },
+        "styleClass": "story-4-region"
       }
     },
     {
       "id": "https://404mike.github.io/uv4-manifest/mango/stories/gottingen-story.json/annotation/5",
       "type": "Annotation",
-      "motivation": "commenting",
+      "motivation": "supplementing",
       "label": {
         "en": [
           "Half-timbered corner"
         ]
       },
+      "summary": {
+        "en": [
+          "Across the square a timber-framed house turns the corner, its dark beams set against white render, dormer windows in a steep tiled roof, and a café sign at ground level."
+        ]
+      },
       "body": {
-        "type": "TextualBody",
-        "value": "Across the square a timber-framed house turns the corner, its dark beams set against white render, dormer windows in a steep tiled roof, and a café sign at ground level.",
-        "format": "text/plain",
-        "language": "en",
-        "purpose": "describing"
+        "type": [
+          "Dataset",
+          "mango:ViewerState"
+        ],
+        "format": "application/vnd.mango.story-state+json",
+        "mangoState": {
+          "canvasIndex": 0,
+          "presentationAspect": 1.2604166666666665,
+          "viewBox": {
+            "x": 2478.9196094243825,
+            "y": 671.9114256590142,
+            "w": 1142.1607811512351,
+            "h": 906.1771486819717
+          },
+          "drawingAnnotations": [
+            {
+              "id": "anno-81ea1503-f64a-4348-af96-5e3b6b26e1a1",
+              "type": "polygon",
+              "points": [
+                {
+                  "x": 3234.2324,
+                  "y": 1888.6188
+                },
+                {
+                  "x": 3002.6477,
+                  "y": 1915.9685
+                },
+                {
+                  "x": 2943.7203,
+                  "y": 1813.5325
+                },
+                {
+                  "x": 2942.9545,
+                  "y": 1666.481
+                },
+                {
+                  "x": 2921.0812,
+                  "y": 1569.5406
+                },
+                {
+                  "x": 2984.8994,
+                  "y": 1459.6398
+                },
+                {
+                  "x": 3046.1177,
+                  "y": 1456.4607
+                },
+                {
+                  "x": 3095.2893,
+                  "y": 1571.4069
+                },
+                {
+                  "x": 3139.3321,
+                  "y": 1532.8534
+                },
+                {
+                  "x": 3170.234,
+                  "y": 1490.619
+                },
+                {
+                  "x": 3224.4573,
+                  "y": 1495.7221
+                },
+                {
+                  "x": 3263.9182,
+                  "y": 1564.6306
+                },
+                {
+                  "x": 3289.2537,
+                  "y": 1686.8163
+                },
+                {
+                  "x": 3256.1894,
+                  "y": 1728.3622
+                },
+                {
+                  "x": 3234.4448,
+                  "y": 1775.9572
+                }
+              ]
+            }
+          ],
+          "playback": {
+            "transitionMs": 2000
+          }
+        }
+      },
+      "target": {
+        "source": "https://iiif.io/api/cookbook/recipe/0005-image-service/canvas/p1",
+        "type": "SpecificResource",
+        "partOf": {
+          "id": "https://iiif.io/api/cookbook/recipe/0005-image-service/manifest.json",
+          "type": "Manifest"
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=2479,672,1142,906"
+        }
+      }
+    },
+    {
+      "id": "https://404mike.github.io/uv4-manifest/mango/stories/gottingen-story.json/annotation/5/overlay/drawing/anno-81ea1503-f64a-4348-af96-5e3b6b26e1a1",
+      "type": "Annotation",
+      "motivation": "highlighting",
+      "stylesheet": {
+        "type": "CssStylesheet",
+        "value": ".story-anno-81ea1503-f64a-4348-af96-5e3b6b26e1a1 { stroke: #e07a3f; fill: rgba(224, 122, 63, 0.16); stroke-width: 2.5px; }"
       },
       "target": {
         "type": "SpecificResource",
         "source": "https://iiif.io/api/cookbook/recipe/0005-image-service/canvas/p1",
-        "partOf": [
-          {
-            "id": "https://iiif.io/api/cookbook/recipe/0005-image-service/manifest.json",
-            "type": "Manifest"
-          }
-        ],
         "selector": {
-          "type": "FragmentSelector",
-          "conformsTo": "http://www.w3.org/TR/media-frags/",
-          "value": "xywh=2600,550,900,1150"
-        }
+          "type": "SvgSelector",
+          "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"3234.2324,1888.6188 3002.6477,1915.9685 2943.7203,1813.5325 2942.9545,1666.481 2921.0812,1569.5406 2984.8994,1459.6398 3046.1177,1456.4607 3095.2893,1571.4069 3139.3321,1532.8534 3170.234,1490.619 3224.4573,1495.7221 3263.9182,1564.6306 3289.2537,1686.8163 3256.1894,1728.3622 3234.4448,1775.9572\"/></svg>"
+        },
+        "styleClass": "story-anno-81ea1503-f64a-4348-af96-5e3b6b26e1a1"
       }
     },
     {
       "id": "https://404mike.github.io/uv4-manifest/mango/stories/gottingen-story.json/annotation/6",
       "type": "Annotation",
-      "motivation": "commenting",
+      "motivation": "supplementing",
       "label": {
         "en": [
           "The paving"
         ]
       },
+      "summary": {
+        "en": [
+          "Most of the photograph is given over to the paving itself — grey and buff granite setts laid in broad bands, sweeping out towards the foreground and holding the whole square together."
+        ]
+      },
       "body": {
-        "type": "TextualBody",
-        "value": "Most of the photograph is given over to the paving itself — grey and buff granite setts laid in broad bands, sweeping out towards the foreground and holding the whole square together.",
-        "format": "text/plain",
-        "language": "en",
-        "purpose": "describing"
+        "type": [
+          "Dataset",
+          "mango:ViewerState"
+        ],
+        "format": "application/vnd.mango.story-state+json",
+        "mangoState": {
+          "canvasIndex": 0,
+          "presentationAspect": 1.2604166666666665,
+          "viewBox": {
+            "x": 1294.8641906689732,
+            "y": 1781.875721522491,
+            "w": 1810.271618662054,
+            "h": 1436.248556955018
+          },
+          "drawingAnnotations": [
+            {
+              "id": "6-region",
+              "type": "rectangle",
+              "rect": {
+                "x": 900,
+                "y": 2000,
+                "w": 2600,
+                "h": 1000
+              }
+            }
+          ],
+          "playback": {
+            "transitionMs": 2000
+          }
+        }
+      },
+      "target": {
+        "source": "https://iiif.io/api/cookbook/recipe/0005-image-service/canvas/p1",
+        "type": "SpecificResource",
+        "partOf": {
+          "id": "https://iiif.io/api/cookbook/recipe/0005-image-service/manifest.json",
+          "type": "Manifest"
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=1295,1782,1810,1436"
+        }
+      }
+    },
+    {
+      "id": "https://404mike.github.io/uv4-manifest/mango/stories/gottingen-story.json/annotation/6/overlay/drawing/6-region",
+      "type": "Annotation",
+      "motivation": "highlighting",
+      "stylesheet": {
+        "type": "CssStylesheet",
+        "value": ".story-6-region { stroke: #e07a3f; fill: rgba(224, 122, 63, 0.16); stroke-width: 2.5px; }"
       },
       "target": {
         "type": "SpecificResource",
         "source": "https://iiif.io/api/cookbook/recipe/0005-image-service/canvas/p1",
-        "partOf": [
-          {
-            "id": "https://iiif.io/api/cookbook/recipe/0005-image-service/manifest.json",
-            "type": "Manifest"
-          }
-        ],
         "selector": {
           "type": "FragmentSelector",
           "conformsTo": "http://www.w3.org/TR/media-frags/",
           "value": "xywh=900,2000,2600,1000"
-        }
+        },
+        "styleClass": "story-6-region"
       }
     }
   ]
