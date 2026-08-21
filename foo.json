@@ -1,0 +1,141 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "https://mangoviewer.dev/schema/story/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://404mike.github.io/uv4-manifest/foo.json",
+  "type": "AnnotationPage",
+  "items": [
+    {
+      "id": "https://404mike.github.io/uv4-manifest/47ec1646-86d7-41fe-9e8c-282822678a9b/annotation/94c7948b-1122-4d0c-81a3-2dbe9da0c528",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "id": "https://404mike.github.io/uv4-manifest/47ec1646-86d7-41fe-9e8c-282822678a9b/annotation/94c7948b-1122-4d0c-81a3-2dbe9da0c528/state",
+        "type": "mango:ViewerState",
+        "format": "application/vnd.mango.story-state+json",
+        "mangoState": {
+          "canvasIndex": 0,
+          "presentationAspect": 1.486910994764398,
+          "playback": {
+            "advance": "auto",
+            "delayMs": 2000
+          }
+        }
+      },
+      "target": {
+        "source": "https://manifests.collections.yale.edu/canvas/ycba/4f227f08-7842-46cc-b05a-e3c6a4614cc1",
+        "type": "SpecificResource",
+        "partOf": {
+          "id": "https://manifests.collections.yale.edu/ycba/obj/34",
+          "type": "Manifest"
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=5300,5559,2340,1573"
+        }
+      }
+    },
+    {
+      "id": "https://404mike.github.io/uv4-manifest/47ec1646-86d7-41fe-9e8c-282822678a9b/annotation/7145b6b4-dc95-4e1d-a1b6-ca4ad488c175",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "id": "https://404mike.github.io/uv4-manifest/47ec1646-86d7-41fe-9e8c-282822678a9b/annotation/7145b6b4-dc95-4e1d-a1b6-ca4ad488c175/state",
+        "type": "mango:ViewerState",
+        "format": "application/vnd.mango.story-state+json",
+        "mangoState": {
+          "canvasIndex": 0,
+          "presentationAspect": 1.486910994764398,
+          "playback": {
+            "advance": "auto",
+            "delayMs": 2000
+          }
+        }
+      },
+      "target": {
+        "source": "https://manifests.collections.yale.edu/canvas/ycba/4f227f08-7842-46cc-b05a-e3c6a4614cc1",
+        "type": "SpecificResource",
+        "partOf": {
+          "id": "https://manifests.collections.yale.edu/ycba/obj/34",
+          "type": "Manifest"
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=7760,6214,2340,1573"
+        }
+      }
+    },
+    {
+      "id": "https://404mike.github.io/uv4-manifest/47ec1646-86d7-41fe-9e8c-282822678a9b/annotation/7145b6b4-dc95-4e1d-a1b6-ca4ad488c175/overlay/drawing/anno-add5fde9-5332-47cd-a3ba-71ffc46b0b3a",
+      "type": "Annotation",
+      "motivation": "highlighting",
+      "stylesheet": {
+        "type": "CssStylesheet",
+        "value": ".story-anno-add5fde9-5332-47cd-a3ba-71ffc46b0b3a { stroke: #e07a3f; fill: rgba(224, 122, 63, 0.16); stroke-width: 2.5px; }"
+      },
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://manifests.collections.yale.edu/canvas/ycba/4f227f08-7842-46cc-b05a-e3c6a4614cc1",
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=8876,6360,324,392"
+        },
+        "styleClass": "story-anno-add5fde9-5332-47cd-a3ba-71ffc46b0b3a"
+      }
+    },
+    {
+      "id": "https://404mike.github.io/uv4-manifest/47ec1646-86d7-41fe-9e8c-282822678a9b/annotation/6a978e10-d9ac-4733-8618-fc9eee28ff85",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "id": "https://404mike.github.io/uv4-manifest/47ec1646-86d7-41fe-9e8c-282822678a9b/annotation/6a978e10-d9ac-4733-8618-fc9eee28ff85/state",
+        "type": "mango:ViewerState",
+        "format": "application/vnd.mango.story-state+json",
+        "mangoState": {
+          "canvasIndex": 0,
+          "presentationAspect": 1.486910994764398,
+          "playback": {
+            "advance": "auto",
+            "delayMs": 2000
+          }
+        }
+      },
+      "target": {
+        "source": "https://manifests.collections.yale.edu/canvas/ycba/4f227f08-7842-46cc-b05a-e3c6a4614cc1",
+        "type": "SpecificResource",
+        "partOf": {
+          "id": "https://manifests.collections.yale.edu/ycba/obj/34",
+          "type": "Manifest"
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=7760,6214,2340,1574"
+        }
+      }
+    },
+    {
+      "id": "https://404mike.github.io/uv4-manifest/47ec1646-86d7-41fe-9e8c-282822678a9b/annotation/6a978e10-d9ac-4733-8618-fc9eee28ff85/overlay/drawing/anno-21e28e44-790f-4de7-a06f-5efc02851f70",
+      "type": "Annotation",
+      "motivation": "highlighting",
+      "stylesheet": {
+        "type": "CssStylesheet",
+        "value": ".story-anno-21e28e44-790f-4de7-a06f-5efc02851f70 { stroke: #e07a3f; fill: rgba(224, 122, 63, 0.16); stroke-width: 2.5px; }"
+      },
+      "target": {
+        "type": "SpecificResource",
+        "source": "https://manifests.collections.yale.edu/canvas/ycba/4f227f08-7842-46cc-b05a-e3c6a4614cc1",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"8303.8807,6756.9091 8188.7164,6847.5081 8172.2843,6972.2186 8651.2576,7035.3503 9273.8553,7010.1612 9380.059,6781.4617 9326.9699,6348.9208 8955.5623,6286.7565 8819.2819,6586.3518 8797.6441,6695.1648\"/></svg>"
+        },
+        "styleClass": "story-anno-21e28e44-790f-4de7-a06f-5efc02851f70"
+      }
+    }
+  ]
+}
