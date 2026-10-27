@@ -1,0 +1,78 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://404mike.github.io/uv4-manifest/mij.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "Harbour at dawn"
+        ],
+        "cy": [
+            "Harbwr ar y wawr"
+        ]
+    },
+    "summary": {
+        "en": [
+            "This is a description of the harbour at dawn."
+        ],
+        "cy": [
+            "Mae hwn yn ddisgrifiad o'r harbwr ar y wawr."
+        ]
+    },
+    "navDate": "1956-10-09T00:00:00Z",
+    "items": [
+        {
+            "id": "https://404mike.github.io/uv4-manifest/mij/canvas/0",
+            "type": "Canvas",
+            "width": 1800,
+            "height": 1200,
+            "items": [
+                {
+                    "id": "https://404mike.github.io/uv4-manifest/mij/canvas/0/page/painting",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://404mike.github.io/uv4-manifest/mij/canvas/0/annotation/painting",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://iiif.io/api/presentation/2.1/example/fixtures/resources/page1-full.png",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "width": 1800,
+                                "height": 1200
+                            },
+                            "target": "https://404mike.github.io/uv4-manifest/mij/canvas/0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://404mike.github.io/uv4-manifest/mij/canvas/1",
+            "type": "Canvas",
+            "width": 1800,
+            "height": 1200,
+            "items": [
+                {
+                    "id": "https://404mike.github.io/uv4-manifest/mij/canvas/1/page/painting",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://404mike.github.io/uv4-manifest/mij/canvas/1/annotation/painting",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://iiif.io/api/presentation/2.1/example/fixtures/resources/page2-full.png",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "width": 1800,
+                                "height": 1200
+                            },
+                            "target": "https://404mike.github.io/uv4-manifest/mij/canvas/1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
